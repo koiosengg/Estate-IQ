@@ -192,6 +192,18 @@ header nav {
   letter-spacing: -0.32px;
 }
 
+.primary-btn.white {
+  background: var(--White, #fff);
+}
+
+.primary-btn.white:hover {
+  background: #eee9ec;
+}
+
+.primary-btn.white p {
+  color: var(--Dark-Purple-Primary, #502445);
+}
+
 /* Home */
 
 .banner {
@@ -281,7 +293,6 @@ header nav {
   justify-content: center;
   align-items: center;
   gap: 4px;
-  align-self: stretch;
   color: var(--Blue, #0090bc);
   text-align: center;
   font-family: Montserrat;
@@ -310,6 +321,17 @@ header nav {
   font-weight: 600;
   line-height: normal;
   letter-spacing: -1.44px;
+}
+
+.template-heading .template-heading-para {
+  text-align: left;
+  color: var(--Text-Black-text-black-300, #606060);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.36px;
 }
 
 .home-process {
@@ -399,6 +421,331 @@ header nav {
   font-weight: 500;
   line-height: normal;
   letter-spacing: -0.32px;
+}
+
+.home-modular-container {
+  background: #fbf5f9;
+}
+
+.home-modular-container .template-heading {
+  max-width: 680px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.home-modular-container .template-heading h2 {
+  text-align: left;
+}
+
+.home-modular {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+}
+
+.home-modular-cards {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.home-modular-card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  align-self: stretch;
+}
+
+.home-modular-card img {
+  width: 56px;
+  height: 56px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.home-modular-card-text {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.home-modular-card-text h3 {
+  color: var(--Text-Black-Primary, #111);
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.48px;
+}
+
+.home-modular-card-text p {
+  color: var(--Text-Black-text-black-300, #606060);
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.32px;
+}
+
+.home-stress-free {
+  width: 100%;
+  display: flex;
+  padding: 80px 160px;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  background: var(--Dark-Purple-Primary, #502445);
+}
+
+.home-stress-free-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+}
+
+.home-stress-free-text h2 {
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1.6px;
+  background: linear-gradient(90deg, #fff 19.26%, #ff9fe7 82.54%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.home-stress-free-text p {
+  max-width: 524px;
+  color: var(--Grey-grey-200, #c2c2c2);
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.36px;
+}
+
+.home-health-report-container {
+  flex-direction: row;
+  gap: 40px;
+  background: linear-gradient(107deg, #edfbff 0%, #ffebf8 100%);
+}
+
+.home-health-report-img {
+  width: 100%;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 64px 48px;
+  background: #fbf5f9;
+}
+
+.home-health-report-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.home-health-report {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 48px;
+}
+
+.home-health-report .template-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+}
+
+.home-health-report .template-heading h2 span {
+  background: #0090bc;
+  color: #fff;
+}
+
+.home-health-report-points {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+}
+
+.home-health-report-point {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  align-self: stretch;
+}
+
+.home-health-report-point h3 {
+  color: var(--Text-Black-Primary, #111);
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.48px;
+}
+
+.home-health-report-point p {
+  color: var(--Text-Black-text-black-300, #606060);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.32px;
+}
+
+.home-health-report-points hr {
+  width: 100%;
+  border: 1px solid rgba(214, 214, 214, 0.5);
+}
+
+.home-about {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.home-about-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 16px;
+  align-self: stretch;
+}
+
+.home-about-text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+}
+
+.home-about-text h3 {
+  color: var(--Text-Black-Primary, #111);
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -1.12px;
+}
+
+.home-about-text p {
+  color: var(--Text-Black-text-black-300, #606060);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.36px;
+}
+
+.secondary-btn {
+  position: relative;
+  display: inline-flex;
+  height: 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.secondary-btn::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  width: 100%;
+  height: 2px;
+  background: #121212;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s ease, transform-origin 0s;
+}
+
+.secondary-btn:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+  background: #32152b;
+}
+
+.secondary-btn p {
+  color: var(--Dark-Purple-Primary, #502445);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.32px;
+  transition: all 0.3s;
+}
+
+.secondary-btn:hover p {
+  color: #32152b;
+}
+
+.home-about-img {
+  width: 100%;
+  min-height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  overflow: hidden;
+}
+
+.home-about-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.3s;
+}
+
+.home-about-img:hover img {
+  scale: 1.1;
 }
 
 /* Footer */
