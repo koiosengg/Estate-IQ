@@ -25,7 +25,7 @@ function Navbar() {
             />
           </svg>
           <div className="navbar-dropdwon">
-            <Link to="/" className="navbar-dropdwon-link">
+            <Link to="/core-services" className="navbar-dropdwon-link">
               <div className="navbar-dropdwon-link-text">
                 <p>Our Core Services</p>
                 <span>Khata E- Filing, Encumbrance Certificate & more</span>

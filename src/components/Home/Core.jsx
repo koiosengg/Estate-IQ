@@ -93,7 +93,7 @@ function Core() {
             </div>
           </div>
         </div>
-        <Link to="/services" className="primary-btn">
+        <Link to="/core-services" className="primary-btn">
           <p>View Details</p>
         </Link>
       </div>

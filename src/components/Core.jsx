@@ -1,17 +1,17 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
-import Banner from "./Home/Banner";
+import Banner from "./Core/Banner";
+import Services from "./Core/Services";
 import Process from "./Home/Process";
-import Core from "./Home/Core";
 import Modular from "./Home/Modular";
+import Help from "./Core/Help";
 import WhyChoose from "./Home/WhyChoose";
 import StressFree from "./Home/StressFree";
 import HealthReport from "./Home/HealthReport";
-import About from "./Home/About";
 import Testimony from "./Home/Testimony";
 import FAQ from "./Home/FAQ";
 
-function Home() {
+function Core() {
   return (
     <>
       <Helmet>
@@ -22,17 +22,17 @@ function Home() {
         />
       </Helmet>
       <Banner />
+      <Services />
       <Process />
-      <Core />
       <Modular />
+      <Help />
       <WhyChoose />
       <StressFree />
       <HealthReport />
-      <About />
       <Testimony />
       <FAQ />
     </>
   );
 }
 
-export default Home;
+export default Core;
