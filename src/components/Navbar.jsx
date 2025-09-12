@@ -43,7 +43,7 @@ function Navbar() {
                 />
               </svg>
             </Link>
-            <Link to="/" className="navbar-dropdwon-link">
+            <Link to="/modular-services" className="navbar-dropdwon-link">
               <div className="navbar-dropdwon-link-text">
                 <p>Modular & Portable Homes</p>
                 <span>
@@ -63,7 +63,7 @@ function Navbar() {
                 />
               </svg>
             </Link>
-            <Link to="/" className="navbar-dropdwon-link">
+            <Link to="/property-health-report" className="navbar-dropdwon-link">
               <div className="navbar-dropdwon-link-text">
                 <p>Property Health report (Due Diligence Service)</p>
                 <span>Protect Your Investment</span>
