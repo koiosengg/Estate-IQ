@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import DesktopImage from "../../assets/Home/Process/Desktop Image.svg";
+import BackgroundImage from "../../assets/Home/Process/Background Image.svg";
 import useInView from "../useInView";
 
 function Process() {
@@ -8,6 +9,11 @@ function Process() {
 
   return (
     <section className="template">
+      <img
+        src={BackgroundImage}
+        alt="Background Image"
+        className="template-background"
+      />
       <div className="template-heading">
         <p>
           <span></span> How does it work

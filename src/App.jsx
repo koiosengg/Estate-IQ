@@ -7,6 +7,8 @@ import Footer from "./components/Footer";
 import Core from "./components/Core";
 import Modular from "./components/Modular";
 import PropertyHealthReport from "./components/PropertyHealthReport";
+import About from "./components/About";
+import Blog from "./components/Blog";
 import Contact from "./components/Contact";
 import ScrollToTop from "./components/ScrollToTop";
 
@@ -25,6 +27,8 @@ function App() {
               path="property-health-report"
               element={<PropertyHealthReport />}
             />
+            <Route path="about" element={<About />} />
+            <Route path="blog" element={<Blog /> } />
             <Route path="contact" element={<Contact />} />
             <Route path="*" element={<Home />} />
           </Route>

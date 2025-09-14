@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import { Link } from "react-router-dom";
 import useInView from "../useInView";
-import Image from "../../assets/Property Health Report/BelowBanner/Desktop Image.svg";
+import Image from "../../assets/Property Health Report/Below Banner/Desktop Image.svg";
 
 function BelowBanner() {
   const sectionRef = useRef(null);
