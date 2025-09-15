@@ -219,9 +219,12 @@ header nav {
 .banner-left {
   display: flex;
   max-width: 550px;
+  height: 100%;
   flex-direction: column;
   align-items: flex-start;
+  justify-content: center;
   gap: 32px;
+  position: relative;
 }
 
 .banner-left-text {
@@ -941,6 +944,7 @@ header nav {
   align-items: flex-start;
   gap: 16px;
   padding-bottom: 20px;
+  text-decoration: none;
 }
 
 .blog-trends-set-img {
@@ -971,6 +975,119 @@ header nav {
   font-weight: 600;
   line-height: normal;
   letter-spacing: -0.48px;
+  transition: all 0.3s;
+}
+
+/* Blog Inner Pages */
+
+.banner-left-back-btn {
+  position: absolute;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.blog-page-container {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 80px;
+  align-self: stretch;
+  padding: 80px 160px;
+  position: relative;
+}
+
+.blog-page-container-left {
+  display: flex;
+  max-width: 680px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 48px;
+}
+
+.blog-page-container-left h2 {
+  color: var(--Text-Black-Primary, #111);
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -1.44px;
+}
+
+.blog-page-container-left p {
+  color: var(--Text-Black-text-black-300, #606060);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.36px;
+}
+
+.blog-page-container-left-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+}
+
+.blog-page-container-right {
+  display: flex;
+  width: 360px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  flex-shrink: 0;
+  position: sticky;
+  top: 80px;
+}
+
+.blog-page-container-right-set {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  gap: 7px;
+  align-self: stretch;
+  text-decoration: none;
+}
+
+.blog-page-container-right-set-img {
+  width: 92px;
+  height: 97px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.blog-page-container-right-set-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.3s;
+}
+
+.blog-page-container-right-set:hover img {
+  scale: 1.1;
+}
+
+.blog-page-container-right-set p {
+  color: var(--Text-Black-Primary, #111);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.36px;
 }
 
 /* Footer */

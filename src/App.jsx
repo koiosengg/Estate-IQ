@@ -9,6 +9,10 @@ import Modular from "./components/Modular";
 import PropertyHealthReport from "./components/PropertyHealthReport";
 import About from "./components/About";
 import Blog from "./components/Blog";
+import Khata from "./components/Blog/Khata";
+import EC from "./components/Blog/EC";
+import Mistakes from "./components/Blog/Mistakes";
+import Filing from "./components/Blog/Filing";
 import Contact from "./components/Contact";
 import ScrollToTop from "./components/ScrollToTop";
 
@@ -28,7 +32,11 @@ function App() {
               element={<PropertyHealthReport />}
             />
             <Route path="about" element={<About />} />
-            <Route path="blog" element={<Blog /> } />
+            <Route path="blog" element={<Blog />} />
+            <Route path="blog/khata" element={<Khata />} />
+            <Route path="blog/ec" element={<EC />} />
+            <Route path="blog/mistakes" element={<Mistakes />} />
+            <Route path="blog/filing" element={<Filing />} />
             <Route path="contact" element={<Contact />} />
             <Route path="*" element={<Home />} />
           </Route>

@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import { Link } from "react-router-dom";
 import useInView from "../useInView";
 import Khata from "../../assets/Blog/Trends/Khata.png";
 import EC from "../../assets/Blog/Trends/EC.png";
@@ -28,7 +29,8 @@ function Trends() {
       </div>
 
       <div className="blog-trends">
-        <div
+        <Link
+          to="khata"
           className={`blog-trends-set reveal ${
             isKhataVisible ? "in-view" : ""
           }`}
@@ -38,9 +40,10 @@ function Trends() {
             <img src={Khata} alt="Khata" />
           </div>
           <h3>How to Get a Khata in Bangalore: Step by Step</h3>
-        </div>
+        </Link>
 
-        <div
+        <Link
+          to="ec"
           className={`blog-trends-set reveal ${isECVisible ? "in-view" : ""}`}
           ref={ecRef}
         >
@@ -48,9 +51,10 @@ function Trends() {
             <img src={EC} alt="Encumbrance Certificate" />
           </div>
           <h3>What is an Encumbrance Certificate and Why It Matters</h3>
-        </div>
+        </Link>
 
-        <div
+        <Link
+          to="mistakes"
           className={`blog-trends-set reveal ${
             isMistakesVisible ? "in-view" : ""
           }`}
@@ -60,9 +64,10 @@ function Trends() {
             <img src={Mistakes} alt="Property Documentation Mistakes" />
           </div>
           <h3>Common Property Documentation Mistakes and How to Avoid Them</h3>
-        </div>
+        </Link>
 
-        <div
+        <Link
+          to="filing"
           className={`blog-trends-set reveal ${
             isFilingVisible ? "in-view" : ""
           }`}
@@ -72,7 +77,7 @@ function Trends() {
             <img src={Filing} alt="Property Tax Filing" />
           </div>
           <h3>Complete Guide to Property Tax Filing in Bangalore</h3>
-        </div>
+        </Link>
       </div>
     </section>
   );
