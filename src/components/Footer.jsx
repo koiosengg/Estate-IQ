@@ -20,6 +20,8 @@ function Footer() {
           <Link to="/">Blog</Link>
           <Link to="/">FAQ</Link>
           <Link to="/">Contact</Link>
+          <Link className="mobile">Privacy policy</Link>
+          <Link className="mobile">T&C</Link>
         </nav>
       </div>
       <div className="footer-bottom">
@@ -27,8 +29,8 @@ function Footer() {
         <div className="footer-bottom-container">
           <p>©All Copy Rights Reserved</p>
           <nav>
-            <Link>Privacy policy</Link>
-            <Link>T&C</Link>
+            <Link className="desktop">Privacy policy</Link>
+            <Link className="desktop">T&C</Link>
           </nav>
         </div>
       </div>

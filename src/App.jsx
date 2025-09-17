@@ -13,6 +13,7 @@ import Khata from "./components/Blog/Khata";
 import EC from "./components/Blog/EC";
 import Mistakes from "./components/Blog/Mistakes";
 import Filing from "./components/Blog/Filing";
+import FAQ from "./components/FAQ";
 import Contact from "./components/Contact";
 import ScrollToTop from "./components/ScrollToTop";
 
@@ -37,6 +38,7 @@ function App() {
             <Route path="blog/ec" element={<EC />} />
             <Route path="blog/mistakes" element={<Mistakes />} />
             <Route path="blog/filing" element={<Filing />} />
+            <Route path="faq" element={<FAQ />} />
             <Route path="contact" element={<Contact />} />
             <Route path="*" element={<Home />} />
           </Route>

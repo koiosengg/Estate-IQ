@@ -44,9 +44,6 @@ function WhyChoose() {
             </div>
           </div>
         </div>
-        <Link to="/" className="primary-btn">
-          <p>Explore Modular Homes</p>
-        </Link>
       </div>
     </section>
   );
