@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import DesktopImage from "../../assets/Home/Process/Desktop Image.svg";
+import MobileImage from "../../assets/Home/Process/Mobile Image.svg";
 import BackgroundImage from "../../assets/Home/Process/Background Image.svg";
 import useInView from "../useInView";
 
@@ -24,7 +25,8 @@ function Process() {
         ref={sectionRef}
         className={`home-process reveal ${isVisible ? "in-view" : ""}`}
       >
-        <img src={DesktopImage} alt="Estate IQ Process" />
+        <img src={DesktopImage} className="desktop" alt="Estate IQ Process" />
+        <img src={MobileImage} className="mobile" alt="Estate IQ Process" />
       </div>
     </section>
   );

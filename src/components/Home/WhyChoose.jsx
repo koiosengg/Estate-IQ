@@ -19,9 +19,9 @@ function WhyChoose() {
       </div>
       <div
         ref={sectionRef}
-        className={`home-modular reveal ${isVisible ? "in-view" : ""}`}
+        className={`home-modular  reveal ${isVisible ? "in-view" : ""}`}
       >
-        <div className="home-modular-cards">
+        <div className="home-modular-cards why-choose">
           <div className="home-modular-card">
             <img src={TransparentPricing} alt="Transparent Pricing" />
             <div className="home-modular-card-text">
