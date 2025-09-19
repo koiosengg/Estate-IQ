@@ -8,7 +8,10 @@ function BelowBanner() {
   const isVisible = useInView(sectionRef);
 
   return (
-    <section className="home-faq-container" style={{ background: "#FBF5F9" }}>
+    <section
+      className="home-faq-container modular "
+      style={{ background: "#FBF5F9" }}
+    >
       <div className="home-faq">
         <div className="home-faq-text">
           <h2>Secure Your Investment with Expert Property Checks</h2>

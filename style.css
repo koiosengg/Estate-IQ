@@ -1858,11 +1858,11 @@ footer nav a:hover {
   .home-about-text h3 {
     color: var(--Text-Black-Primary, #111);
     font-family: Inter;
-    font-size: 18px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    letter-spacing: -0.36px;
+    letter-spacing: -0.48px;
   }
 
   .home-about-text p {
@@ -1920,6 +1920,34 @@ footer nav a:hover {
     font-weight: 600;
     line-height: normal;
     letter-spacing: -1.12px;
+  }
+
+  /* Core */
+
+  .core-services {
+    gap: 40px;
+  }
+
+  .core-services .home-about {
+    gap: 16px;
+  }
+
+  .core-services .home-about:nth-child(even) {
+    flex-direction: column-reverse;
+  }
+
+  .core-services .home-about-info {
+    gap: 24px;
+  }
+
+  /* Modular */
+
+  .home-faq-container.modular {
+    flex-direction: column;
+  }
+
+  .home-faq-container.modular .home-faq-img img {
+    width: 100%;
   }
 
   /* Footer */
