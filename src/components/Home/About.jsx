@@ -26,7 +26,7 @@ function About() {
               ownership stress-free for homeowners, buyers, and investors.
             </p>
           </div>
-          <Link to="/" className="secondary-btn">
+          <Link to="/about" className="secondary-btn">
             <p>Read More</p>
           </Link>
         </div>

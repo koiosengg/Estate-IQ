@@ -17,19 +17,19 @@ function Links() {
       >
         <div className="home-modular-cards">
           <a
-            href="tel:+91290290299"
+            href="tel:+917795561531"
             className="home-modular-card"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img src={Call} alt="Call" />
             <div className="home-modular-card-text">
-              <h3>+91 290290299</h3>
+              <h3>+91 77955 61531</h3>
               <p>Phone</p>
             </div>
           </a>
           <a
-            href="https://wa.me/91290290299" 
+            href="https://wa.me/917795561531"
             className="home-modular-card"
             target="_blank"
             rel="noopener noreferrer"

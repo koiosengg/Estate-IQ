@@ -1,5 +1,4 @@
 import React, { useRef } from "react";
-import { Link } from "react-router-dom";
 import useInView from "../useInView";
 import Khata from "../../assets/Core/Services/Khata.png";
 import EC from "../../assets/Core/Services/EC.png";
@@ -56,9 +55,13 @@ function Services() {
                 </p>
               </div>
             </div>
-            <Link to="/" className="primary-btn">
+            <a
+              href="https://wa.me/917795561531"
+              target="_blank"
+              className="primary-btn"
+            >
               <p>Get my Khata Filled</p>
-            </Link>
+            </a>
           </div>
           <div className="home-about-img">
             <img
@@ -95,9 +98,13 @@ function Services() {
                 </p>
               </div>
             </div>
-            <Link to="/" className="primary-btn">
+            <a
+              href="https://wa.me/917795561531"
+              target="_blank"
+              className="primary-btn"
+            >
               <p>Request My EC</p>
-            </Link>
+            </a>
           </div>
           <div className="home-about-img">
             <img
@@ -128,9 +135,13 @@ function Services() {
                 </p>
               </div>
             </div>
-            <Link to="/" className="primary-btn">
+            <a
+              href="https://wa.me/917795561531"
+              target="_blank"
+              className="primary-btn"
+            >
               <p>Get My Sale Deed Drafted</p>
-            </Link>
+            </a>
           </div>
           <div className="home-about-img">
             <img
@@ -161,9 +172,13 @@ function Services() {
                 </p>
               </div>
             </div>
-            <Link to="/" className="primary-btn">
+            <a
+              href="https://wa.me/917795561531"
+              target="_blank"
+              className="primary-btn"
+            >
               <p>Pay My Property Tax Now</p>
-            </Link>
+            </a>
           </div>
           <div className="home-about-img">
             <img
@@ -197,9 +212,13 @@ function Services() {
                 </p>
               </div>
             </div>
-            <Link to="/" className="primary-btn">
+            <a
+              href="https://wa.me/917795561531"
+              target="_blank"
+              className="primary-btn"
+            >
               <p>Get My Sale Deed Drafted</p>
-            </Link>
+            </a>
           </div>
           <div className="home-about-img">
             <img

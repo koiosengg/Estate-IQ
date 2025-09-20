@@ -15,13 +15,17 @@ function Footer() {
         </div>
         <nav>
           <Link to="/">Home</Link>
-          <Link to="/">Services</Link>
-          <Link to="/">About Us</Link>
-          <Link to="/">Blog</Link>
-          <Link to="/">FAQ</Link>
-          <Link to="/">Contact</Link>
-          <Link className="mobile">Privacy policy</Link>
-          <Link className="mobile">T&C</Link>
+          <Link to="/core-services">Services</Link>
+          <Link to="/about">About Us</Link>
+          <Link to="/blog">Blog</Link>
+          <Link to="/faq">FAQ</Link>
+          <Link to="/contact">Contact</Link>
+          <Link className="mobile" to="/">
+            Privacy policy
+          </Link>
+          <Link className="mobile" to="/">
+            T&C
+          </Link>
         </nav>
       </div>
       <div className="footer-bottom">
@@ -29,8 +33,12 @@ function Footer() {
         <div className="footer-bottom-container">
           <p>©All Copy Rights Reserved</p>
           <nav>
-            <Link className="desktop">Privacy policy</Link>
-            <Link className="desktop">T&C</Link>
+            <Link className="desktop" to="/">
+              Privacy policy
+            </Link>
+            <Link className="desktop" to="/">
+              T&C
+            </Link>
           </nav>
         </div>
       </div>

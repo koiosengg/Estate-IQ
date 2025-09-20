@@ -1,5 +1,4 @@
 import React, { useRef } from "react";
-import { Link } from "react-router-dom";
 import useInView from "../useInView";
 import FastDeployment from "../../assets/Modular/Why/Fast Deployment.svg";
 import LowerCost from "../../assets/Modular/Why/Lower Cost.svg";
@@ -51,9 +50,13 @@ function Why() {
             </div>
           </div>
         </div>
-        <Link to="/" className="primary-btn">
+        <a
+          href="https://wa.me/917795561531"
+          target="_blank"
+          className="primary-btn"
+        >
           <p>Book a Consultation for Modular Homes</p>
-        </Link>
+        </a>
       </div>
     </section>
   );

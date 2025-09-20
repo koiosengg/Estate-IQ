@@ -10,7 +10,7 @@ function Form() {
         <h2>Contact Us</h2>
       </div>
       <div className="contact-form">
-        <form>
+        <form action="https://formspree.io/f/mpwjvoqz" method="POST">
           <div className="input-section">
             <label htmlFor="name">Name</label>
             <input
@@ -50,10 +50,15 @@ function Form() {
               <option value="" disabled>
                 Select a service
               </option>
-              <option value="khata">Khata / e-Khata Filing</option>
-              <option value="encumbrance">Encumbrance Certificate</option>
-              <option value="property">Property Tax Filing</option>
-              <option value="transfer">Khata Transfer</option>
+              <option value="Khata / e-Khata Filing">
+                Khata / e-Khata Filing
+              </option>
+              <option value="Encumbrance Certificate">
+                Encumbrance Certificate
+              </option>
+              <option value="Property Tax Filing">Property Tax Filing</option>
+              <option value="Khata Transfer">Khata Transfer</option>
+              <option value="Other Services">Other Services</option>
             </select>
           </div>
 

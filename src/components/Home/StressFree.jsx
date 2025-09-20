@@ -11,7 +11,7 @@ function StressFree() {
           risus etiam. Elementum sit nullam ac donec natoque{" "}
         </p>
       </div>
-      <Link to="/" className="primary-btn white">
+      <Link to="/contact" className="primary-btn white">
         <p>Start Your Service Today </p>
       </Link>
     </section>

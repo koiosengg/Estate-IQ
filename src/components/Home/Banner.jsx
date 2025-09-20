@@ -16,7 +16,11 @@ function Banner() {
             property paperwork simple, transparent, and hassle-free
           </p>
         </div>
-        <Link to="/contact" className="primary-btn">
+        <a
+          href="https://wa.me/917795561531"
+          target="_blank"
+          className="primary-btn"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -30,7 +34,7 @@ function Banner() {
             />
           </svg>
           <p>Talk to us </p>
-        </Link>
+        </a>
       </div>
       <div className="banner-right">
         <img src={BannerImage} alt="Banner Image" />

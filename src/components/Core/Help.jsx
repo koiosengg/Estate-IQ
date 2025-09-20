@@ -17,7 +17,7 @@ function Help() {
             assist you with your specific needs.
           </p>
         </div>
-        <Link to="/" className="primary-btn">
+        <Link to="/contact" className="primary-btn">
           <p>Contact Us</p>
         </Link>
       </div>

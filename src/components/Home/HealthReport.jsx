@@ -53,7 +53,7 @@ function HealthReport() {
             <p>Confirm legal approvals and zoning compliance.</p>
           </div>
         </div>
-        <Link to="" className="primary-btn">
+        <Link to="/property-health-report" className="primary-btn">
           <p>Request a Property Health Report</p>
         </Link>
       </div>

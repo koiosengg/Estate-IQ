@@ -58,7 +58,7 @@ function Modular() {
             </div>
           </div>
         </div>
-        <Link to="/" className="primary-btn">
+        <Link to="/modular-services" className="primary-btn">
           <p>Explore Modular Homes</p>
         </Link>
       </div>

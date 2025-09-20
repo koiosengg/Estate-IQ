@@ -18,7 +18,7 @@ function FAQ() {
             consequat aliquam tellus commodo.
           </p>
         </div>
-        <Link to="/" className="primary-btn">
+        <Link to="/faq" className="primary-btn">
           <p>Learn More</p>
         </Link>
       </div>
