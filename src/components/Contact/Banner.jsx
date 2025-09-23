@@ -7,13 +7,11 @@ function Banner() {
     <section className="banner">
       <div className="banner-left">
         <div className="banner-left-text">
-          <h1>
-            Lorem ipsum dolor sit amet consectetur. Netus viverra mauris sed non
-            risus etiam.
-          </h1>
+          <h1>Let’s Make Property Easy Together</h1>
           <p>
-            From Khata transfers to property registration EstateIQ makes
-            property paperwork simple, transparent, and hassle-free
+            Have questions or need guidance? Our team is ready to help you
+            navigate property documentation, compliance, and investments
+            smoothly.
           </p>
         </div>
       </div>

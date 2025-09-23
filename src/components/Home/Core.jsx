@@ -32,8 +32,7 @@ function Core() {
               <h3>Khata / e-Khata Filing</h3>
               <p>
                 Get your property’s Khata filed or transferred quickly and
-                accurately. Get your property’s Khata filed or transferred
-                quickly and accurately.
+                accurately.
               </p>
             </div>
           </div>
@@ -47,9 +46,8 @@ function Core() {
             <div className="home-core-set-text">
               <h3>Encumbrance Certificate (EC)</h3>
               <p>
-                Get your property’s Khata filed or transferred quickly and
-                accurately. Get your property’s Khata filed or transferred
-                quickly and accurately.
+                Verify your property’s financial & legal history in just a few
+                days.
               </p>
             </div>
           </div>
@@ -59,11 +57,7 @@ function Core() {
             </div>
             <div className="home-core-set-text">
               <h3>Sale Deed & Document Drafting</h3>
-              <p>
-                Get your property’s Khata filed or transferred quickly and
-                accurately. Get your property’s Khata filed or transferred
-                quickly and accurately.
-              </p>
+              <p>Professionally drafted legal agreements you can trust.</p>
             </div>
           </div>
           <div className="home-core-set">
@@ -72,11 +66,7 @@ function Core() {
             </div>
             <div className="home-core-set-text">
               <h3>Property Tax Compliance</h3>
-              <p>
-                Get your property’s Khata filed or transferred quickly and
-                accurately. Get your property’s Khata filed or transferred
-                quickly and accurately.
-              </p>
+              <p>File and pay your property tax on time without hassle.</p>
             </div>
           </div>
           <div className="home-core-set">
@@ -85,11 +75,7 @@ function Core() {
             </div>
             <div className="home-core-set-text">
               <h3>Property Health Report</h3>
-              <p>
-                Get your property’s Khata filed or transferred quickly and
-                accurately. Get your property’s Khata filed or transferred
-                quickly and accurately.
-              </p>
+              <p>Comprehensive property check before you buy or sell.</p>
             </div>
           </div>
         </div>

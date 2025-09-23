@@ -7,12 +7,13 @@ function StressFree() {
       <div className="home-stress-free-text">
         <h2>Make Property Paperwork Stress-Free</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur. Netus viverra mauris sed non
-          risus etiam. Elementum sit nullam ac donec natoque{" "}
+          Simplify property paperwork with expert help. From Khata to tax
+          filing, we ensure accuracy, compliance, and peace of mind at every
+          step.
         </p>
       </div>
       <Link to="/contact" className="primary-btn white">
-        <p>Start Your Service Today </p>
+        <p>Click here to Start Today </p>
       </Link>
     </section>
   );

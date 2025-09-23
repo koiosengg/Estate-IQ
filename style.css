@@ -867,7 +867,7 @@ header nav {
 
 .home-faq {
   display: flex;
-  width: 521px;
+  width: 550px;
   flex-direction: column;
   align-items: flex-start;
   gap: 24px;
@@ -1400,7 +1400,7 @@ footer {
 
 .footer-top {
   display: flex;
-  width: 463px;
+  width: 600px;
   flex-direction: column;
   align-items: center;
   gap: 40px;

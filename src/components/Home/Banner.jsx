@@ -7,14 +7,8 @@ function Banner() {
     <section className="banner">
       <div className="banner-left">
         <div className="banner-left-text">
-          <h1>
-            Your Trusted Partner for Real Estate Documentation & Compliance in
-            Bangalore
-          </h1>
-          <p>
-            From Khata transfers to property registration EstateIQ makes
-            property paperwork simple, transparent, and hassle-free
-          </p>
+          <h1>Your Trusted Real Estate Partner in Bangalore.</h1>
+          <p>Buy, Sell, Rent, Invest & Build all with 100% transparency.</p>
         </div>
         <a
           href="https://wa.me/917795561531"
@@ -33,7 +27,7 @@ function Banner() {
               fill="white"
             />
           </svg>
-          <p>Talk to us </p>
+          <p>Book a Free Consultation</p>
         </a>
       </div>
       <div className="banner-right">

@@ -13,12 +13,12 @@ function About() {
         <p>
           <span></span> About
         </p>
-        <h2>About EstateIQ</h2>
+        <h2>Simplifying Property Ownership</h2>
       </div>
       <div className="home-about">
         <div className="home-about-info">
           <div className="home-about-text">
-            <h3>Lorem Ipsum</h3>
+            <h3>Simplifying Property Ownership</h3>
             <p>
               EstateIQ was founded with one mission: to simplify real estate
               documentation and compliance in Bangalore. We combine legal

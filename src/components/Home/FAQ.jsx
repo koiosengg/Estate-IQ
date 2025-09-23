@@ -11,16 +11,23 @@ function FAQ() {
     <section className="home-faq-container">
       <div className="home-faq">
         <div className="home-faq-text">
-          <h2>Need Help? Learn More About What We Do.</h2>
+          <h2>
+            Need Help?
+            <br className="desktop" /> Learn More About What We Do.
+          </h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Netus viverra mauris sed non
-            risus etiam. Elementum sit nullam ac donec natoque elit. Sit
-            consequat aliquam tellus commodo.
+            Have questions about property documentation, compliance or
+            investment? Our experts are here to guide you with clear answers,
+            transparent processes, and timely support.
           </p>
         </div>
-        <Link to="/faq" className="primary-btn">
-          <p>Learn More</p>
-        </Link>
+        <a
+          href="https://wa.me/917795561531"
+          target="_blank"
+          className="primary-btn"
+        >
+          <p>Talk to an Expert</p>
+        </a>
       </div>
       <div
         ref={sectionRef}

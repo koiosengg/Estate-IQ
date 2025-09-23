@@ -18,7 +18,7 @@ function BelowBanner() {
       <div className="home-about">
         <div className="home-about-info">
           <div className="home-about-text">
-            <h3>Lorem Ipsum</h3>
+            <h3>Your Trusted Partner in Real Estate</h3>
             <p>
               EstateIQ was founded with one mission: to simplify real estate
               documentation and compliance in Bangalore. We combine legal

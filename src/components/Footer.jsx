@@ -9,8 +9,10 @@ function Footer() {
         <div className="footer-top-text">
           <img src={Logo} className="Estate IQ Logo" />
           <p>
-            Lorem ipsum dolor sit amet consectetur. Aenean varius sit suscipit
-            pharetra nulla pellentesque turpis.
+            Simplifying property documentation in Bangalore.{" "}
+            <br className="desktop" />
+            With legal expertise and technology, we ensure stress-free
+            ownership.
           </p>
         </div>
         <nav>
