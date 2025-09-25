@@ -1032,6 +1032,56 @@ header nav {
   letter-spacing: -0.36px;
 }
 
+.blog-page-container-left .primary-btn p {
+  color: var(--White, #fff);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.32px;
+}
+
+.blog-page-container-left ul,
+.blog-page-container-left ol {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  padding-left: 20px;
+  align-self: stretch;
+}
+
+.blog-page-container-left ul li::marker,
+.blog-page-container-left ol li::marker {
+  color: #502445;
+}
+
+.blog-page-container-left .normal li::marker {
+  color: #606060;
+}
+
+.blog-page-container-left li {
+  color: var(--Text-Black-text-black-300, #606060);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.36px;
+}
+
+.blog-page-container-left li strong {
+  color: var(--Dark-Purple-Primary, #502445);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.36px;
+}
+
 .blog-page-container-left-section {
   width: 100%;
   display: flex;
@@ -1681,6 +1731,7 @@ footer nav a:hover {
   }
 
   .banner-right {
+    width: 100%;
     max-width: 100%;
   }
 
@@ -1980,6 +2031,10 @@ footer nav a:hover {
     flex-direction: column;
     align-items: flex-start;
     gap: 48px;
+  }
+
+  .blog-page-container-right {
+    width: 100%;
   }
 
   .blog-page-container-left {

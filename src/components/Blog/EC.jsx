@@ -49,63 +49,130 @@ function EC() {
             </svg>
           </Link>
           <div className="banner-left-text">
-            <h1>What is an Encumbrance Certificate and Why It Matters</h1>
+            <h1>
+              Why Every Bangalore Buyer Needs a Property Health Report Before
+              Buying
+            </h1>
             <p>Posted 21 Jul, 2025</p>
           </div>
         </div>
         <div className="banner-right">
-          <img src={BannerImage} alt="Banner Image" />
+          <img src={BannerImage} alt="Property Health Report" />
         </div>
       </section>
       <section className="blog-page-container">
         <div className="blog-page-container-left">
           <p>
-            Lorem ipsum dolor sit amet consectetur. Nisl pellentesque adipiscing
-            augue magnis feugiat nibh. A condimentum morbi neque gravida. A dui
-            tincidunt eu at tellus mauris dui tortor. Lorem tellus facilisis
-            vitae faucibus semper proin nibh gravida. Sed venenatis amet sed sed
-            lobortis tincidunt in. Egestas tristique volutpat vel orci quis
-            nulla ornare semper. Bibendum nibh pellentesque mauris enim. Egestas
-            dignissim convallis feugiat etiam morbi turpis tellus convallis.
-            Ullamcorper nullam vel pharetra volutpat integer nec massa a mattis.
-            Varius donec nulla vitae velit feugiat nibh enim condimentum. Tortor
-            tempus magna dictum pellentesque malesuada mattis. Accumsan dictum
-            purus ut elementum. Nibh habitasse dignissim diam sagittis eu
-            vulputate consequat velit magna. Pharetra mi egestas amet augue
-            facilisi in eu suscipit porta. Tempor in malesuada ullamcorper elit
-            enim elit natoque consequat. At consectetur non quis fusce
-            ullamcorper. Nisi at diam id pulvinar. Sed amet bibendum eu blandit.
+            Real estate in Bangalore is attractive — but buying without proper
+            due diligence can cost you dearly. A Property Health Report (PHR) is
+            a compact, expert-verified due-diligence product that summarizes
+            legal, tax, and compliance risks. Here’s why every buyer should
+            order one before signing the offer.
           </p>
           <div className="blog-page-container-left-section">
-            <h2>Why It’s Important?</h2>
+            <h2>What does a Property Health Report cover?</h2>
+            <p>A robust PHR from EstateIQ includes:</p>
+            <ul>
+              <li>
+                <strong>Title &amp; ownership verification</strong> — sale deed,
+                mother deed chain
+              </li>
+              <li>
+                <strong>Encumbrance Certificate (EC) check</strong> — loans,
+                mortgages, charges
+              </li>
+              <li>
+                <strong>Khata &amp; property tax status</strong> —
+                current/arrears
+              </li>
+              <li>
+                <strong>Plan approvals &amp; zoning</strong> — BBMP/BDA status,
+                OC/CC checks
+              </li>
+              <li>
+                <strong>Litigation &amp; dispute search</strong> — court
+                records, public notices
+              </li>
+              <li>
+                <strong>Red flags summary &amp; PTI Score™</strong> —
+                easy-to-understand 1–100 risk score
+              </li>
+            </ul>
+          </div>
+          <div className="blog-page-container-left-section">
+            <h2>Why it’s crucial in Bangalore</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Nisl pellentesque
-              adipiscing augue magnis feugiat nibh. A condimentum morbi neque
-              gravida. A dui tincidunt eu at tellus mauris dui tortor. Lorem
-              tellus facilisis vitae faucibus semper proin nibh gravida. Sed
-              venenatis amet sed sed lobortis tincidunt in. Egestas tristique
-              volutpat vel orci quis nulla ornare semper. Bibendum nibh
-              pellentesque mauris enim. Egestas dignissim convallis feugiat
-              etiam morbi turpis tellus convallis. Ullamcorper nullam vel
-              pharetra volutpat integer nec massa a mattis. Varius donec nulla
-              vitae velit feugiat nibh enim condimentum. Tortor tempus magna
-              dictum pellentesque malesuada mattis. Accumsan dictum purus ut
-              elementum. Nibh habitasse dignissim diam sagittis eu vulputate
-              consequat velit magna.
+              Bangalore’s rapid growth, multiple civic authorities, and diverse
+              land-use history mean checks are complex. Issues we commonly find:
             </p>
+            <ul className="normal">
+              <li>Properties with missing or inconsistent title documents</li>
+              <li>Unpaid tax arrears or pending utility charges</li>
+              <li>Unauthorized constructions lacking approved plans</li>
+              <li>Hidden mortgages or prior claims</li>
+            </ul>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Nisl pellentesque
-              adipiscing augue magnis feugiat nibh. A condimentum morbi neque
-              gravida. A dui tincidunt eu at tellus mauris dui tortor. Lorem
-              tellus facilisis vitae faucibus semper proin nibh gravida. Sed
-              venenatis amet sed sed lobortis tincidunt in. Egestas tristique
-              volutpat vel orci quis nulla ornare semper. Bibendum nibh
-              pellentesque mauris enim. Egestas dignissim convallis feugiat
-              etiam morbi turpis tellus convallis. Ullamcorper nullam vel
-              pharetra volutpat integer nec massa a mattis. Varius donec nulla
-              vitae velit feugiat nibh enim condimentum.
+              A PHR converts hours of legal research into a single, actionable
+              report — saving time, money, and risk.
             </p>
           </div>
+          <div className="blog-page-container-left-section">
+            <h2>How EstateIQ delivers the PHR</h2>
+            <ol>
+              <li>
+                <strong>Document collection</strong> — You upload or we fetch
+                documents.
+              </li>
+              <li>
+                <strong>Verification</strong> — Legal team checks title chain,
+                EC, Khata, tax, and approvals.
+              </li>
+              <li>
+                <strong>Analysis &amp; score</strong> — We produce a PTI Score
+                and concise risk recommendations.
+              </li>
+              <li>
+                <strong>Delivery</strong> — Report delivered digitally with
+                next-step advice.
+              </li>
+            </ol>
+            <p>
+              Typical delivery time: 7–14 working days, depending on the
+              complexity.
+            </p>
+          </div>
+          <div className="blog-page-container-left-section">
+            <h2>Buyer-centric benefits</h2>
+            <ul>
+              <li>
+                <strong>Buy with confidence</strong> — Negotiate from a position
+                of knowledge.
+              </li>
+              <li>
+                <strong>Avoid fraud</strong> — Detect prior liens or
+                encumbrances early.
+              </li>
+              <li>
+                <strong>Faster closure</strong> — Sellers with a pre-issued PHR
+                sell faster and at better prices.
+              </li>
+            </ul>
+          </div>
+          <div className="blog-page-container-left-section">
+            <h2>Final word</h2>
+            <p>
+              A Property Health Report is the most cost-effective safeguard
+              against expensive surprises. Before you invest in Bangalore real
+              estate, order a PHR and make a smart, evidence-backed decision.
+            </p>
+          </div>
+          <a
+            href="https://wa.me/917795561531"
+            target="_blank"
+            className="primary-btn"
+          >
+            <p>Order Your Property Health Report — EstateIQ</p>
+          </a>
         </div>
         <div className="blog-page-container-right">
           <Link to="/blog/khata" className="blog-page-container-right-set">

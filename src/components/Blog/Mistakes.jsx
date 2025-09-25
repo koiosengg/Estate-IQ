@@ -50,64 +50,136 @@ function Mistakes() {
           </Link>
           <div className="banner-left-text">
             <h1>
-              Common Property Documentation Mistakes and How to Avoid Them
+              How Rental Guarantee & Property Management Works: A Guide for
+              Bangalore Property Owners
             </h1>
             <p>Posted 21 Jul, 2025</p>
           </div>
         </div>
         <div className="banner-right">
-          <img src={BannerImage} alt="Banner Image" />
+          <img src={BannerImage} alt="Rental Guarantee & Property Management" />
         </div>
       </section>
       <section className="blog-page-container">
         <div className="blog-page-container-left">
           <p>
-            Lorem ipsum dolor sit amet consectetur. Nisl pellentesque adipiscing
-            augue magnis feugiat nibh. A condimentum morbi neque gravida. A dui
-            tincidunt eu at tellus mauris dui tortor. Lorem tellus facilisis
-            vitae faucibus semper proin nibh gravida. Sed venenatis amet sed sed
-            lobortis tincidunt in. Egestas tristique volutpat vel orci quis
-            nulla ornare semper. Bibendum nibh pellentesque mauris enim. Egestas
-            dignissim convallis feugiat etiam morbi turpis tellus convallis.
-            Ullamcorper nullam vel pharetra volutpat integer nec massa a mattis.
-            Varius donec nulla vitae velit feugiat nibh enim condimentum. Tortor
-            tempus magna dictum pellentesque malesuada mattis. Accumsan dictum
-            purus ut elementum. Nibh habitasse dignissim diam sagittis eu
-            vulputate consequat velit magna. Pharetra mi egestas amet augue
-            facilisi in eu suscipit porta. Tempor in malesuada ullamcorper elit
-            enim elit natoque consequat. At consectetur non quis fusce
-            ullamcorper. Nisi at diam id pulvinar. Sed amet bibendum eu blandit.
+            Owning rental property in Bangalore can be profitable — but it’s
+            also time-consuming. Owners face tenant screening, late payments,
+            property upkeep, and legal hassles. EstateIQ’s Rental Guarantee +
+            Property Management model is built to remove these headaches and
+            deliver predictable monthly income.
           </p>
           <div className="blog-page-container-left-section">
-            <h2>Why It’s Important?</h2>
+            <h2>What is a Rental Guarantee model?</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Nisl pellentesque
-              adipiscing augue magnis feugiat nibh. A condimentum morbi neque
-              gravida. A dui tincidunt eu at tellus mauris dui tortor. Lorem
-              tellus facilisis vitae faucibus semper proin nibh gravida. Sed
-              venenatis amet sed sed lobortis tincidunt in. Egestas tristique
-              volutpat vel orci quis nulla ornare semper. Bibendum nibh
-              pellentesque mauris enim. Egestas dignissim convallis feugiat
-              etiam morbi turpis tellus convallis. Ullamcorper nullam vel
-              pharetra volutpat integer nec massa a mattis. Varius donec nulla
-              vitae velit feugiat nibh enim condimentum. Tortor tempus magna
-              dictum pellentesque malesuada mattis. Accumsan dictum purus ut
-              elementum. Nibh habitasse dignissim diam sagittis eu vulputate
-              consequat velit magna.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur. Nisl pellentesque
-              adipiscing augue magnis feugiat nibh. A condimentum morbi neque
-              gravida. A dui tincidunt eu at tellus mauris dui tortor. Lorem
-              tellus facilisis vitae faucibus semper proin nibh gravida. Sed
-              venenatis amet sed sed lobortis tincidunt in. Egestas tristique
-              volutpat vel orci quis nulla ornare semper. Bibendum nibh
-              pellentesque mauris enim. Egestas dignissim convallis feugiat
-              etiam morbi turpis tellus convallis. Ullamcorper nullam vel
-              pharetra volutpat integer nec massa a mattis. Varius donec nulla
-              vitae velit feugiat nibh enim condimentum.
+              In the Rental Guarantee model, EstateIQ offers property owners a
+              guaranteed monthly rent for an agreed period (typically 6–24
+              months). We take responsibility for tenant sourcing, background
+              checks, maintenance, and collections. If tenant-paid rent falls
+              short, EstateIQ covers the guaranteed amount (per the contract).
             </p>
           </div>
+          <div className="blog-page-container-left-section">
+            <h2>What EstateIQ handles</h2>
+            <ul>
+              <li>
+                <strong>Tenant screening</strong> — ID verification, employment
+                checks, rental history, credit background.
+              </li>
+              <li>
+                <strong>Lease management</strong> — Drafting rent agreements,
+                police verification, security deposit handling.
+              </li>
+              <li>
+                <strong>Collections</strong> — Timely rent collection and
+                consolidated owner payouts.
+              </li>
+              <li>
+                <strong>Maintenance &amp; repairs</strong> — Routine upkeep
+                managed via our vetted vendors.
+              </li>
+              <li>
+                <strong>Legal support</strong> — Eviction assistance or dispute
+                mediation if needed.
+              </li>
+            </ul>
+          </div>
+          <div className="blog-page-container-left-section">
+            <h2>Who benefits most?</h2>
+            <ul>
+              <li>
+                <strong>NRIs</strong> — who want remote, hassle-free rental
+                income.
+              </li>
+              <li>
+                <strong>Busy professionals / HNIs</strong> — who prefer passive
+                rental returns.
+              </li>
+              <li>
+                <strong>Property owners</strong> — looking for stable cash flow
+                rather than market risk.
+              </li>
+            </ul>
+          </div>
+          <div className="blog-page-container-left-section">
+            <h2>How pricing & revenue work</h2>
+            <ul>
+              <li>
+                <strong>Owner receives a guaranteed rent</strong> — slightly
+                lower than potential market rent.
+              </li>
+              <li>
+                <strong>EstateIQ earns the spread</strong> — by managing the
+                property and optimizing occupancy.
+              </li>
+              <li>
+                <strong>Additional optional fee</strong> — Maintenance &amp;
+                management subscription.
+              </li>
+            </ul>
+            <p>
+              This model trades a small share of upside for predictable income
+              and zero operational stress for the owner.
+            </p>
+          </div>
+          <div className="blog-page-container-left-section">
+            <h2>Why EstateIQ’s approach is different</h2>
+            <ul>
+              <li>
+                <strong>Legal-first tenancy</strong> — Every tenant is verified,
+                agreements are airtight, and EstateIQ’s documentation integrates
+                with our Property Health Report for layered safety.
+              </li>
+              <li>
+                <strong>Local vendor network</strong> — Fast maintenance fixes
+                at transparent costs.
+              </li>
+              <li>
+                <strong>Transparent payouts</strong> — Monthly statements and
+                tax receipts for owners.
+              </li>
+            </ul>
+          </div>
+          <div className="blog-page-container-left-section">
+            <h2>How to get started</h2>
+            <ol className="normal">
+              <li>Book a free rental valuation with EstateIQ.</li>
+              <li>Sign a rental guarantee agreement terms and duration.</li>
+              <li>We list, screen tenants, and begin occupancy</li>
+              <li>You receive monthly guaranteed payments</li>
+            </ol>
+            <p>
+              If you’d rather retain upside, EstateIQ also offers pure property
+              management (no guarantee) with market-aligned rent and lower fees.
+            </p>
+          </div>
+          <a
+            href="https://wa.me/917795561531"
+            target="_blank"
+            className="primary-btn"
+          >
+            <p>Get a Free Rental Valuation — EstateIQ</p>
+          </a>
         </div>
         <div className="blog-page-container-right">
           <Link to="/blog/khata" className="blog-page-container-right-set">

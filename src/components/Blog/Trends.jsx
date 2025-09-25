@@ -37,9 +37,12 @@ function Trends() {
           ref={khataRef}
         >
           <div className="blog-trends-set-img">
-            <img src={Khata} alt="Khata" />
+            <img src={Khata} alt="Real estate legal documents Bangalore: sale deed, khata, ec" />
           </div>
-          <h3>How to Get a Khata in Bangalore: Step by Step</h3>
+          <h3>
+            Essential Real Estate Legal Documents in Bangalore, what Every Buyer
+            & Seller Must Know
+          </h3>
         </Link>
 
         <Link
@@ -48,9 +51,12 @@ function Trends() {
           ref={ecRef}
         >
           <div className="blog-trends-set-img">
-            <img src={EC} alt="Encumbrance Certificate" />
+            <img src={EC} alt="Property Health Report" />
           </div>
-          <h3>What is an Encumbrance Certificate and Why It Matters</h3>
+          <h3>
+            Why Every Bangalore Buyer Needs a Property Health Report Before
+            Buying
+          </h3>
         </Link>
 
         <Link
@@ -61,9 +67,12 @@ function Trends() {
           ref={mistakesRef}
         >
           <div className="blog-trends-set-img">
-            <img src={Mistakes} alt="Property Documentation Mistakes" />
+            <img src={Mistakes} alt="Rental Guarantee & Property Management" />
           </div>
-          <h3>Common Property Documentation Mistakes and How to Avoid Them</h3>
+          <h3>
+            How Rental Guarantee & Property Management Works: A Guide for
+            Bangalore Property Owners
+          </h3>
         </Link>
 
         <Link
@@ -74,9 +83,11 @@ function Trends() {
           ref={filingRef}
         >
           <div className="blog-trends-set-img">
-            <img src={Filing} alt="Property Tax Filing" />
+            <img src={Filing} alt="Modular & Portable Homes" />
           </div>
-          <h3>Complete Guide to Property Tax Filing in Bangalore</h3>
+          <h3>
+            Why Modular & Portable Homes are the Future of Housing in Bangalore
+          </h3>
         </Link>
       </div>
     </section>
