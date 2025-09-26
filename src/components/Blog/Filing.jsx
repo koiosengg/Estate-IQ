@@ -49,63 +49,136 @@ function Filing() {
             </svg>
           </Link>
           <div className="banner-left-text">
-            <h1>Complete Guide to Property Tax Filing in Bangalore</h1>
+            <h1>
+              Why Modular & Portable Homes are the Future of Housing in
+              Bangalore
+            </h1>
             <p>Posted 21 Jul, 2025</p>
           </div>
         </div>
         <div className="banner-right">
-          <img src={BannerImage} alt="Banner Image" />
+          <img src={BannerImage} alt="Modular & Portable Homes" />
         </div>
       </section>
       <section className="blog-page-container">
         <div className="blog-page-container-left">
           <p>
-            Lorem ipsum dolor sit amet consectetur. Nisl pellentesque adipiscing
-            augue magnis feugiat nibh. A condimentum morbi neque gravida. A dui
-            tincidunt eu at tellus mauris dui tortor. Lorem tellus facilisis
-            vitae faucibus semper proin nibh gravida. Sed venenatis amet sed sed
-            lobortis tincidunt in. Egestas tristique volutpat vel orci quis
-            nulla ornare semper. Bibendum nibh pellentesque mauris enim. Egestas
-            dignissim convallis feugiat etiam morbi turpis tellus convallis.
-            Ullamcorper nullam vel pharetra volutpat integer nec massa a mattis.
-            Varius donec nulla vitae velit feugiat nibh enim condimentum. Tortor
-            tempus magna dictum pellentesque malesuada mattis. Accumsan dictum
-            purus ut elementum. Nibh habitasse dignissim diam sagittis eu
-            vulputate consequat velit magna. Pharetra mi egestas amet augue
-            facilisi in eu suscipit porta. Tempor in malesuada ullamcorper elit
-            enim elit natoque consequat. At consectetur non quis fusce
-            ullamcorper. Nisi at diam id pulvinar. Sed amet bibendum eu blandit.
+            Bangalore’s housing demand is evolving — and with land &
+            construction costs rising, modular and portable homes are becoming
+            an attractive, practical alternative. EstateIQ builds modern,
+            affordable modular homes designed for quick deployment, energy
+            efficiency, and flexible usage. Here’s why modular housing makes
+            sense for Bangalore buyers, students, and hospitality owners.
           </p>
           <div className="blog-page-container-left-section">
-            <h2>Why It’s Important?</h2>
+            <h2>What are modular & portable homes?</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Nisl pellentesque
-              adipiscing augue magnis feugiat nibh. A condimentum morbi neque
-              gravida. A dui tincidunt eu at tellus mauris dui tortor. Lorem
-              tellus facilisis vitae faucibus semper proin nibh gravida. Sed
-              venenatis amet sed sed lobortis tincidunt in. Egestas tristique
-              volutpat vel orci quis nulla ornare semper. Bibendum nibh
-              pellentesque mauris enim. Egestas dignissim convallis feugiat
-              etiam morbi turpis tellus convallis. Ullamcorper nullam vel
-              pharetra volutpat integer nec massa a mattis. Varius donec nulla
-              vitae velit feugiat nibh enim condimentum. Tortor tempus magna
-              dictum pellentesque malesuada mattis. Accumsan dictum purus ut
-              elementum. Nibh habitasse dignissim diam sagittis eu vulputate
-              consequat velit magna.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur. Nisl pellentesque
-              adipiscing augue magnis feugiat nibh. A condimentum morbi neque
-              gravida. A dui tincidunt eu at tellus mauris dui tortor. Lorem
-              tellus facilisis vitae faucibus semper proin nibh gravida. Sed
-              venenatis amet sed sed lobortis tincidunt in. Egestas tristique
-              volutpat vel orci quis nulla ornare semper. Bibendum nibh
-              pellentesque mauris enim. Egestas dignissim convallis feugiat
-              etiam morbi turpis tellus convallis. Ullamcorper nullam vel
-              pharetra volutpat integer nec massa a mattis. Varius donec nulla
-              vitae velit feugiat nibh enim condimentum.
+              Modular homes are factory-built units assembled onsite. Portable
+              homes are prefabricated units designed for mobility and short-term
+              placement. Both approaches use prefabrication to reduce
+              construction time, cost, and waste.
             </p>
           </div>
+          <div className="blog-page-container-left-section">
+            <h2>Key benefits for Bangalore</h2>
+            <ul>
+              <li>
+                <strong>Speed of delivery</strong> — A modular home can be ready
+                in weeks instead of months; perfect for urgent housing needs or
+                resort projects.
+              </li>
+              <li>
+                <strong>Cost-efficiency</strong> — Lower labor and waste reduce
+                overall build costs compared to traditional construction.
+              </li>
+              <li>
+                <strong>Quality & consistency</strong> — Factory-controlled
+                production yields consistent finishes and tighter tolerances.
+              </li>
+              <li>
+                <strong>Sustainability</strong> — Many modular builds use
+                eco-friendly materials and efficient fittings, reducing the
+                carbon footprint.
+              </li>
+              <li>
+                <strong>Flexibility</strong> — Units can be designed for student
+                housing, compact family homes, resort cottages, or temporary
+                site offices.
+              </li>
+            </ul>
+          </div>
+          <div className="blog-page-container-left-section">
+            <h2>Use cases ideal for Bangalore</h2>
+            <ul>
+              <li>
+                <strong>Student & PG housing</strong> — Near tech parks and
+                universities.
+              </li>
+              <li>
+                <strong>Resorts & holiday stays</strong> — In outskirts (Coorg,
+                Sakleshpur, resorts near Bangalore).
+              </li>
+              <li>
+                <strong>Micro-housing</strong> — For young professionals in
+                high-rent areas.
+              </li>
+              <li>
+                <strong>Corporate guest houses</strong> — And temporary worker
+                accommodations.
+              </li>
+            </ul>
+          </div>
+          <div className="blog-page-container-left-section">
+            <h2>EstateIQ’s modular offering</h2>
+            <ul>
+              <li>
+                <strong>Customized layouts</strong> — From single-room studios
+                to 2BHK modular units.
+              </li>
+              <li>
+                <strong>Turnkey delivery</strong> — Design → factory build →
+                site assembly → finishes.
+              </li>
+              <li>
+                <strong>Compliance support</strong> — We handle permits, site
+                prep, and Khata/plan integration.
+              </li>
+              <li>
+                <strong>Post-assembly services</strong> — Warranty, maintenance
+                packages, and modular upgrades.
+              </li>
+            </ul>
+          </div>
+          <div className="blog-page-container-left-section">
+            <h2>Things to consider before choosing modular</h2>
+            <ul>
+              <li>
+                <strong>Site access &amp; foundation</strong> — Some modular
+                units need basic foundations and crane access.
+              </li>
+              <li>
+                <strong>Local approvals</strong> — Modular construction still
+                needs plan sanction and adherence to local bylaws — EstateIQ
+                supports every step.
+              </li>
+              <li>
+                <strong>Design alignment</strong> — Choose finishes &amp;
+                insulation appropriate for Bangalore’s climate.
+              </li>
+            </ul>
+          </div>
+          <div className="blog-page-container-left-section">
+            <h2>Final takeaway</h2>
+            <p>
+              Modular homes are not just a trend — they’re a practical solution
+              for Bangalore’s housing crunch. Faster, greener, and customizable,
+              they’re ideal for investors, universities, resorts, and
+              forward-thinking homeowners.
+            </p>
+          </div>
+          <Link to="/modular-services" className="primary-btn">
+            <p>Explore Modular Home Options with EstateIQ</p>
+          </Link>
         </div>
         <div className="blog-page-container-right">
           <Link to="/blog/khata" className="blog-page-container-right-set">
@@ -113,7 +186,7 @@ function Filing() {
               <img src={Khata} alt="Khata" />
             </div>
             <p>How to Get a Khata in Bangalore: Step by Step</p>
-          </Link> 
+          </Link>
           <Link to="/blog/ec" className="blog-page-container-right-set">
             <div className="blog-page-container-right-set-img">
               <img src={EC} alt="Encumbrance Certificate" />
