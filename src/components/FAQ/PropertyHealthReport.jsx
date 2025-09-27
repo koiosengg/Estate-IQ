@@ -32,9 +32,8 @@ function PropertyHealthReport() {
 
       <div className="faq-container">
         {FAQ_DATA.map((faqData, index) => (
-          <>
+          <React.Fragment key={index}>
             <div
-              key={index}
               className={`faq-set ${activeIndex === index ? "active-faq" : ""}`}
               onClick={() =>
                 setActiveIndex(activeIndex === index ? null : index)
@@ -82,7 +81,7 @@ function PropertyHealthReport() {
               </div>
             </div>
             <hr />
-          </>
+          </React.Fragment>
         ))}
       </div>
     </section>

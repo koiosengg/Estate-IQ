@@ -6,10 +6,10 @@ function Banner() {
     <section className="banner">
       <div className="banner-left">
         <div className="banner-left-text">
-          <h1>Simplifying Property Documentation in Bangalore</h1>
+          <h1>Smarter Property Decisions, Simplified.</h1>
           <p>
-            EstateIQ blends legal expertise, efficiency, and technology to
-            simplify property documentation and compliance in Bangalore.
+            Your trusted partner for real estate services, compliance, and
+            property management in Bangalore..
           </p>
         </div>
       </div>

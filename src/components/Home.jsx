@@ -10,6 +10,7 @@ import HealthReport from "./Home/HealthReport";
 import About from "./Home/About";
 import Testimony from "./Home/Testimony";
 import FAQ from "./Home/FAQ";
+import Hub from "./Home/Hub";
 
 function Home() {
   return (
@@ -25,6 +26,7 @@ function Home() {
       <Process />
       <Core />
       <Modular />
+      <Hub />
       <WhyChoose />
       <StressFree />
       <HealthReport />

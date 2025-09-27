@@ -13,7 +13,7 @@ function About() {
         <p>
           <span></span> About
         </p>
-        <h2>Simplifying Property Ownership</h2>
+        <h2>About EstateIQ</h2>
       </div>
       <div className="home-about">
         <div className="home-about-info">

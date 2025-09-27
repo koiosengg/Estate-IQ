@@ -10,6 +10,7 @@ import StressFree from "./Home/StressFree";
 import HealthReport from "./Home/HealthReport";
 import Testimony from "./Home/Testimony";
 import FAQ from "./Home/FAQ";
+import Why from "./About/Why";
 
 function About() {
   return (
@@ -23,6 +24,7 @@ function About() {
       </Helmet>
       <Banner />
       <BelowBanner />
+      <Why/>
       <Values />
       <Core />
       <Process />

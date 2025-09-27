@@ -5,9 +5,6 @@ import Menu from "/menu.png";
 import MenuCancel from "/menu cancel.png";
 
 function Navbar() {
-  function handleToggleDropdown() {
-    setDropdown((prev) => !prev);
-  }
 
   const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
   const [hasToggled, setHasToggled] = useState(false);
@@ -29,7 +26,7 @@ function Navbar() {
         <img src={Logo} alt="Estate IQ Logo" />
       </Link>
       <nav className="desktop">
-        <div className="navbar-link" onClick={handleToggleDropdown}>
+        <div className="navbar-link" >
           <a>Our Services</a>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -142,7 +139,7 @@ function Navbar() {
         }`}
       >
         <nav>
-          <div className="navbar-link" onClick={handleToggleDropdown}>
+          <div className="navbar-link" >
             <div className="navbar-link-section">
               <a>Our Services</a>
               <svg

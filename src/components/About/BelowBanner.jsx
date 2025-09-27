@@ -20,17 +20,18 @@ function BelowBanner() {
           <div className="home-about-text">
             <h3>Your Trusted Partner in Real Estate</h3>
             <p>
-              EstateIQ was founded with one mission: to simplify real estate
-              documentation and compliance in Bangalore. We combine legal
-              expertise, process efficiency, and technology to make property
-              ownership stress-free for homeowners, buyers, and investors.
+              At EstateIQ, we make real estate simple, transparent, and
+              stress-free. From essential legal documentation like sale deeds
+              and Khata transfers, to rental management, property health checks,
+              and even modular housing solutions — we offer end-to-end services
+              for property owners, buyers, and investors.
             </p>
           </div>
           <div className="home-about-text">
             <p>
-              Unlike traditional agents, EstateIQ provides full transparency,
-              clear pricing, and guaranteed timelines helping you save time,
-              money, and peace of mind
+              Our mission is to bridge the gap between traditional property
+              services and the future of PropTech by combining expertise, trust,
+              and smart technology.
             </p>
           </div>
         </div>

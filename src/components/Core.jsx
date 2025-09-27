@@ -10,6 +10,9 @@ import StressFree from "./Home/StressFree";
 import HealthReport from "./Home/HealthReport";
 import Testimony from "./Home/Testimony";
 import FAQ from "./Home/FAQ";
+import Invest from "./Core/Invest";
+import Earn from "./Core/Earn";
+import BuySell from "./Core/BuySell";
 
 function Core() {
   return (
@@ -24,10 +27,13 @@ function Core() {
       <Banner />
       <Services />
       <Process />
+      <Invest />
       <Modular />
+      <Earn />
       <Help />
       <WhyChoose />
       <StressFree />
+      <BuySell />
       <HealthReport />
       <Testimony />
       <FAQ />

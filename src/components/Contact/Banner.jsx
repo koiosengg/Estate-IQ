@@ -9,7 +9,7 @@ function Banner() {
         <div className="banner-left-text">
           <h1>Let’s Make Property Easy Together</h1>
           <p>
-            Have questions or need guidance? Our team is ready to help you
+            Have questions or need guidance?<br /> Our team is ready to help you
             navigate property documentation, compliance, and investments
             smoothly.
           </p>
