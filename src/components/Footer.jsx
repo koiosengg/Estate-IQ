@@ -35,10 +35,10 @@ function Footer() {
         <div className="footer-bottom-container">
           <p>©All Copy Rights Reserved</p>
           <nav>
-            <Link className="desktop" to="/">
+            <Link className="desktop" to="/privacy-policy">
               Privacy policy
             </Link>
-            <Link className="desktop" to="/">
+            <Link className="desktop" to="/terms-and-conditions">
               T&C
             </Link>
           </nav>

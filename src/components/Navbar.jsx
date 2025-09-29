@@ -5,7 +5,6 @@ import Menu from "/menu.png";
 import MenuCancel from "/menu cancel.png";
 
 function Navbar() {
-
   const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
   const [hasToggled, setHasToggled] = useState(false);
 
@@ -26,7 +25,7 @@ function Navbar() {
         <img src={Logo} alt="Estate IQ Logo" />
       </Link>
       <nav className="desktop">
-        <div className="navbar-link" >
+        <div className="navbar-link">
           <a>Our Services</a>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -42,10 +41,80 @@ function Navbar() {
             />
           </svg>
           <div className="navbar-dropdwon">
-            <Link to="/core-services" className="navbar-dropdwon-link">
+            <a
+              href="/core-services#Documentation"
+              className="navbar-dropdwon-link"
+            >
               <div className="navbar-dropdwon-link-text">
-                <p>Our Core Services</p>
-                <span>Khata E- Filing, Encumbrance Certificate & more</span>
+                <p>Documentation</p>
+              </div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="12"
+                height="11"
+                viewBox="0 0 12 11"
+                fill="none"
+              >
+                <path
+                  d="M8.7835 6.16663L5.05016 9.89996L6.00016 10.8333L11.3335 5.49996L6.00016 0.166626L5.05016 1.09996L8.7835 4.83329H0.666829V6.16663H8.7835Z"
+                  fill="#111111"
+                />
+              </svg>
+            </a>
+            <Link to="/property-health-report" className="navbar-dropdwon-link">
+              <div className="navbar-dropdwon-link-text">
+                <p>Health Report</p>
+              </div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="12"
+                height="11"
+                viewBox="0 0 12 11"
+                fill="none"
+              >
+                <path
+                  d="M8.7835 6.16663L5.05016 9.89996L6.00016 10.8333L11.3335 5.49996L6.00016 0.166626L5.05016 1.09996L8.7835 4.83329H0.666829V6.16663H8.7835Z"
+                  fill="#111111"
+                />
+              </svg>
+            </Link>
+            <Link className="navbar-dropdwon-link">
+              <div className="navbar-dropdwon-link-text">
+                <p>Brokerage</p>
+              </div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="12"
+                height="11"
+                viewBox="0 0 12 11"
+                fill="none"
+              >
+                <path
+                  d="M8.7835 6.16663L5.05016 9.89996L6.00016 10.8333L11.3335 5.49996L6.00016 0.166626L5.05016 1.09996L8.7835 4.83329H0.666829V6.16663H8.7835Z"
+                  fill="#111111"
+                />
+              </svg>
+            </Link>
+            <Link className="navbar-dropdwon-link">
+              <div className="navbar-dropdwon-link-text">
+                <p>Rental Management</p>
+              </div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="12"
+                height="11"
+                viewBox="0 0 12 11"
+                fill="none"
+              >
+                <path
+                  d="M8.7835 6.16663L5.05016 9.89996L6.00016 10.8333L11.3335 5.49996L6.00016 0.166626L5.05016 1.09996L8.7835 4.83329H0.666829V6.16663H8.7835Z"
+                  fill="#111111"
+                />
+              </svg>
+            </Link>
+            <Link className="navbar-dropdwon-link">
+              <div className="navbar-dropdwon-link-text">
+                <p>Land Investment</p>
               </div>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -62,28 +131,7 @@ function Navbar() {
             </Link>
             <Link to="/modular-services" className="navbar-dropdwon-link">
               <div className="navbar-dropdwon-link-text">
-                <p>Modular & Portable Homes</p>
-                <span>
-                  Affordable, sustainable, and quick to set up housing solutions
-                </span>
-              </div>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="12"
-                height="11"
-                viewBox="0 0 12 11"
-                fill="none"
-              >
-                <path
-                  d="M8.7835 6.16663L5.05016 9.89996L6.00016 10.8333L11.3335 5.49996L6.00016 0.166626L5.05016 1.09996L8.7835 4.83329H0.666829V6.16663H8.7835Z"
-                  fill="#111111"
-                />
-              </svg>
-            </Link>
-            <Link to="/property-health-report" className="navbar-dropdwon-link">
-              <div className="navbar-dropdwon-link-text">
-                <p>Property Health report (Due Diligence Service)</p>
-                <span>Protect Your Investment</span>
+                <p>Modular Homes</p>
               </div>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -139,7 +187,7 @@ function Navbar() {
         }`}
       >
         <nav>
-          <div className="navbar-link" >
+          <div className="navbar-link">
             <div className="navbar-link-section">
               <a>Our Services</a>
               <svg
@@ -156,15 +204,13 @@ function Navbar() {
                 />
               </svg>
             </div>
-            <div className="navbar-dropdwon">
-              <Link
-                to="/core-services"
+            <div className="navbar-dropdwon" onClick={handleLinkClick}>
+              <a
+                href="/core-services#Documentation"
                 className="navbar-dropdwon-link"
-                onClick={handleLinkClick}
               >
                 <div className="navbar-dropdwon-link-text">
-                  <p>Our Core Services</p>
-                  <span>Khata E- Filing, Encumbrance Certificate & more</span>
+                  <p>Documentation</p>
                 </div>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -178,40 +224,81 @@ function Navbar() {
                     fill="#111111"
                   />
                 </svg>
-              </Link>
-              <Link
-                to="/modular-services"
-                className="navbar-dropdwon-link"
-                onClick={handleLinkClick}
-              >
-                <div className="navbar-dropdwon-link-text">
-                  <p>Modular & Portable Homes</p>
-                  <span>
-                    Affordable, sustainable, and quick to set up housing
-                    solutions
-                  </span>
-                </div>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="12"
-                  height="11"
-                  viewBox="0 0 12 11"
-                  fill="none"
-                >
-                  <path
-                    d="M8.7835 6.16663L5.05016 9.89996L6.00016 10.8333L11.3335 5.49996L6.00016 0.166626L5.05016 1.09996L8.7835 4.83329H0.666829V6.16663H8.7835Z"
-                    fill="#111111"
-                  />
-                </svg>
-              </Link>
+              </a>
               <Link
                 to="/property-health-report"
                 className="navbar-dropdwon-link"
-                onClick={handleLinkClick}
               >
                 <div className="navbar-dropdwon-link-text">
-                  <p>Property Health report (Due Diligence Service)</p>
-                  <span>Protect Your Investment</span>
+                  <p>Health Report</p>
+                </div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="12"
+                  height="11"
+                  viewBox="0 0 12 11"
+                  fill="none"
+                >
+                  <path
+                    d="M8.7835 6.16663L5.05016 9.89996L6.00016 10.8333L11.3335 5.49996L6.00016 0.166626L5.05016 1.09996L8.7835 4.83329H0.666829V6.16663H8.7835Z"
+                    fill="#111111"
+                  />
+                </svg>
+              </Link>
+              <Link className="navbar-dropdwon-link">
+                <div className="navbar-dropdwon-link-text">
+                  <p>Brokerage</p>
+                </div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="12"
+                  height="11"
+                  viewBox="0 0 12 11"
+                  fill="none"
+                >
+                  <path
+                    d="M8.7835 6.16663L5.05016 9.89996L6.00016 10.8333L11.3335 5.49996L6.00016 0.166626L5.05016 1.09996L8.7835 4.83329H0.666829V6.16663H8.7835Z"
+                    fill="#111111"
+                  />
+                </svg>
+              </Link>
+              <Link className="navbar-dropdwon-link">
+                <div className="navbar-dropdwon-link-text">
+                  <p>Rental Management</p>
+                </div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="12"
+                  height="11"
+                  viewBox="0 0 12 11"
+                  fill="none"
+                >
+                  <path
+                    d="M8.7835 6.16663L5.05016 9.89996L6.00016 10.8333L11.3335 5.49996L6.00016 0.166626L5.05016 1.09996L8.7835 4.83329H0.666829V6.16663H8.7835Z"
+                    fill="#111111"
+                  />
+                </svg>
+              </Link>
+              <Link className="navbar-dropdwon-link">
+                <div className="navbar-dropdwon-link-text">
+                  <p>Land Investment</p>
+                </div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="12"
+                  height="11"
+                  viewBox="0 0 12 11"
+                  fill="none"
+                >
+                  <path
+                    d="M8.7835 6.16663L5.05016 9.89996L6.00016 10.8333L11.3335 5.49996L6.00016 0.166626L5.05016 1.09996L8.7835 4.83329H0.666829V6.16663H8.7835Z"
+                    fill="#111111"
+                  />
+                </svg>
+              </Link>
+              <Link to="/modular-services" className="navbar-dropdwon-link">
+                <div className="navbar-dropdwon-link-text">
+                  <p>Modular Homes</p>
                 </div>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

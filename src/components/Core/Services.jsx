@@ -1,4 +1,5 @@
-import React, { useRef } from "react";
+import React, { useRef, useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import useInView from "../useInView";
 import Khata from "../../assets/Core/Services/Khata.png";
 import EC from "../../assets/Core/Services/EC.png";
@@ -7,6 +8,22 @@ import PropertyTax from "../../assets/Core/Services/Property Tax.png";
 import PropertyHealthReport from "../../assets/Core/Services/Property Health Report.png";
 
 function Services() {
+  const { hash } = useLocation();
+
+  useEffect(() => {
+    if (hash) {
+      const el = document.querySelector(hash);
+      if (el) {
+        setTimeout(() => {
+          // get element position
+          const top = el.getBoundingClientRect().top + window.pageYOffset;
+          // scroll with 80px offset
+          window.scrollTo({ top: top - 80, behavior: "smooth" });
+        }, 50);
+      }
+    }
+  }, [hash]);
+
   // Create separate refs
   const khataRef = useRef(null);
   const ecRef = useRef(null);
@@ -116,7 +133,7 @@ function Services() {
           </div>
         </div>
 
-        <div className="home-about">
+        <div className="home-about" id="Documentation">
           <div className="home-about-info">
             <div className="home-about-text">
               <h3>Sale Deed & Document Drafting</h3>

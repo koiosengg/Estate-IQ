@@ -116,7 +116,7 @@ header nav {
 
 .navbar-dropdwon-link {
   display: flex;
-  width: 520px;
+  width: 350px;
   justify-content: space-between;
   align-items: center;
 }
@@ -600,7 +600,7 @@ header nav {
 }
 
 .home-stress-free-text p {
-  max-width: 524px;
+  max-width: 600px;
   color: var(--Grey-grey-200, #c2c2c2);
   text-align: center;
   font-family: Inter;
@@ -1579,6 +1579,19 @@ form .primary-btn {
   scale: 1.1;
 }
 
+/* Privacy Policy */
+
+.banner.privacy-policy {
+  padding: 80px 160px 0px 160px;
+  justify-content: center;
+  height: auto;
+}
+
+.blog-page-container-left.privacy-policy {
+  max-width: none;
+  width: 100%;
+}
+
 /* Footer */
 
 footer {
@@ -1806,6 +1819,14 @@ footer nav a:hover {
     letter-spacing: -0.4px;
   }
 
+  .navbar-link:hover a {
+    color: #111;
+  }
+
+  .navbar-link:hover .navbar-link-svg path {
+    fill: #111;
+  }
+
   .navbar-link .navbar-link-svg {
     width: 20px;
     height: 20px;
@@ -1988,6 +2009,18 @@ footer nav a:hover {
     letter-spacing: -0.28px;
   }
 
+  .home-hub {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .home-hub-set {
+    margin: 0;
+  }
+
   .why-choose {
     display: flex;
     align-items: center;
@@ -2137,6 +2170,28 @@ footer nav a:hover {
 
   .core-services .home-about-info {
     gap: 24px;
+  }
+
+  .core-buy-sell-set {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+  }
+
+  .core-buy-sell-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    align-self: stretch;
+  }
+
+  .core-buy-sell-text p {
+    text-align: center;
   }
 
   /* Modular */

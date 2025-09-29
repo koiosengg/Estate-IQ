@@ -5,11 +5,11 @@ function StressFree() {
   return (
     <section className="home-stress-free">
       <div className="home-stress-free-text">
-        <h2>Make Property Paperwork Stress-Free</h2>
+        <h2>Let’s Simplify Real Estate Together</h2>
         <p>
-          Simplify property paperwork with expert help. From Khata to tax
-          filing, we ensure accuracy, compliance, and peace of mind at every
-          step.
+          At EstateIQ, we make property ownership and management effortless.
+          From documentation and rental guarantees to modular homes and
+          investments — we’re here to guide you every step of the way.
         </p>
       </div>
       <Link to="/contact" className="primary-btn white">

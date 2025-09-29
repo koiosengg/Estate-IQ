@@ -7,20 +7,15 @@ function Why() {
         <p>
           <span></span> About
         </p>
-        <h2>About EstateIQ</h2>
+        <h2>Why We Started</h2>
       </div>
       <div className="about-why">
         <div className="about-why-container">
           <p>
-            At EstateIQ, we make real estate simple, transparent, and
-            stress-free. From essential legal documentation like sale deeds and
-            Khata transfers, to rental management, property health checks, and
-            even modular housing solutions — we offer end-to-end services for
-            property owners, buyers, and investors.
-            <br />
-            <br /> Our mission is to bridge the gap between traditional property
-            services and the future of PropTech by combining expertise, trust,
-            and smart technology.
+            Bangalore’s real estate market is booming, but navigating the
+            paperwork, compliance, and property management challenges can be
+            overwhelming. We saw property owners, buyers, and NRIs struggling
+            with:
           </p>
           <div className="about-why-featuers">
             <span>Complex documentation & licensing</span>
@@ -28,6 +23,10 @@ function Why() {
             <span>Lack of reliable property insights</span>
             <span>Limited access to investment opportunities</span>
           </div>
+          <p>
+            EstateIQ was created to solve these problems with clarity, speed,
+            and trust.
+          </p>
         </div>
       </div>
     </section>

@@ -16,6 +16,8 @@ import Filing from "./components/Blog/Filing";
 import FAQ from "./components/FAQ";
 import Contact from "./components/Contact";
 import ScrollToTop from "./components/ScrollToTop";
+import PrivacyPolicy from "./components/PrivacyPolicy";
+import TermsAndConditions from "./components/TermsAndConditions"
 
 function App() {
   return (
@@ -40,6 +42,8 @@ function App() {
             <Route path="blog/filing" element={<Filing />} />
             <Route path="faq" element={<FAQ />} />
             <Route path="contact" element={<Contact />} />
+            <Route path="privacy-policy" element={<PrivacyPolicy />} />
+            <Route path="terms-and-conditions" element={<TermsAndConditions />} />
             <Route path="*" element={<Home />} />
           </Route>
         </Routes>

@@ -13,7 +13,7 @@ function BelowBanner() {
         <p>
           <span></span> About
         </p>
-        <h2>About EstateIQ</h2>
+        <h2>Who We Are</h2>
       </div>
       <div className="home-about">
         <div className="home-about-info">

@@ -56,6 +56,10 @@ function BuySell() {
             </div>
           </div>
         </div>
+        <hr
+          className="mobile"
+          style={{ width: "100%", border: "1px solid #F2F2F2" }}
+        />
         <div className="core-buy-sell-set">
           <div className=" core-buy-sell-text">
             <h3>For Sellers</h3>
