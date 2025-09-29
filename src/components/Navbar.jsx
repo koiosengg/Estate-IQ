@@ -41,8 +41,8 @@ function Navbar() {
             />
           </svg>
           <div className="navbar-dropdwon">
-            <a
-              href="/core-services#Documentation"
+            <Link
+              to="/core-services#Documentation"
               className="navbar-dropdwon-link"
             >
               <div className="navbar-dropdwon-link-text">
@@ -60,7 +60,7 @@ function Navbar() {
                   fill="#111111"
                 />
               </svg>
-            </a>
+            </Link>
             <Link to="/property-health-report" className="navbar-dropdwon-link">
               <div className="navbar-dropdwon-link-text">
                 <p>Health Report</p>
@@ -205,8 +205,8 @@ function Navbar() {
               </svg>
             </div>
             <div className="navbar-dropdwon" onClick={handleLinkClick}>
-              <a
-                href="/core-services#Documentation"
+              <Link
+                to="/core-services#Documentation"
                 className="navbar-dropdwon-link"
               >
                 <div className="navbar-dropdwon-link-text">
@@ -224,7 +224,7 @@ function Navbar() {
                     fill="#111111"
                   />
                 </svg>
-              </a>
+              </Link>
               <Link
                 to="/property-health-report"
                 className="navbar-dropdwon-link"
