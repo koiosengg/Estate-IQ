@@ -182,29 +182,47 @@ function Mistakes() {
           </a>
         </div>
         <div className="blog-page-container-right">
-          <Link to="/blog/khata" className="blog-page-container-right-set">
+          <Link
+            to="/blog/must-know-legal-documents-for-property-buyers-and-sellers"
+            className="blog-page-container-right-set"
+          >
             <div className="blog-page-container-right-set-img">
               <img src={Khata} alt="Khata" />
             </div>
-            <p>How to Get a Khata in Bangalore: Step by Step</p>
+            <p>
+              Essential Real Estate Legal Documents in Bangalore, what Every
+              Buyer & Seller Must Know
+            </p>
           </Link>
-          <Link to="/blog/ec" className="blog-page-container-right-set">
+          <Link
+            to="/blog/property-health-report"
+            className="blog-page-container-right-set"
+          >
             <div className="blog-page-container-right-set-img">
               <img src={EC} alt="Encumbrance Certificate" />
             </div>
-            <p>What is an Encumbrance Certificate and Why It Matters</p>
+            <p>
+              Why Every Bangalore Buyer Needs a Property Health Report Before
+              Buying
+            </p>
           </Link>
-          {/* <Link to="/blog/mistakes" className="blog-page-container-right-set">
+          {/* <Link to="/blog/rental-guarantee-and-property-management" className="blog-page-container-right-set">
           <div className="blog-page-container-right-set-img">
             <img src={Mistakes} alt="Property Documentation Mistakes" />
           </div>
-          <p>Common Property Documentation Mistakes and how to Avoid Them</p>
+          <p>How Rental Guarantee & Property Management Works: A Guide for Bangalore Property Owners</p>
         </Link> */}
-          <Link to="/blog/filing" className="blog-page-container-right-set">
+          <Link
+            to="/blog/modular-and-portable-homes"
+            className="blog-page-container-right-set"
+          >
             <div className="blog-page-container-right-set-img">
               <img src={Filing} alt=" Property Tax Filing" />
             </div>
-            <p>Complete Guide to Property Tax Filing in Bangalore</p>
+            <p>
+              Why Modular & Portable Homes are the Future of Housing in
+              Bangalore
+            </p>
           </Link>
         </div>
       </section>

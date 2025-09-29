@@ -36,10 +36,10 @@ function App() {
             />
             <Route path="about" element={<About />} />
             <Route path="blog" element={<Blog />} />
-            <Route path="blog/khata" element={<Khata />} />
-            <Route path="blog/ec" element={<EC />} />
-            <Route path="blog/mistakes" element={<Mistakes />} />
-            <Route path="blog/filing" element={<Filing />} />
+            <Route path="blog/must-know-legal-documents-for-property-buyers-and-sellers" element={<Khata />} />
+            <Route path="blog/property-health-report" element={<EC />} />
+            <Route path="blog/rental-guarantee-and-property-management" element={<Mistakes />} />
+            <Route path="blog/modular-and-portable-homes" element={<Filing />} />
             <Route path="faq" element={<FAQ />} />
             <Route path="contact" element={<Contact />} />
             <Route path="privacy-policy" element={<PrivacyPolicy />} />

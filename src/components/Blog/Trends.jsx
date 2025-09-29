@@ -30,14 +30,17 @@ function Trends() {
 
       <div className="blog-trends">
         <Link
-          to="khata"
+          to="/blog/must-know-legal-documents-for-property-buyers-and-sellers"
           className={`blog-trends-set reveal ${
             isKhataVisible ? "in-view" : ""
           }`}
           ref={khataRef}
         >
           <div className="blog-trends-set-img">
-            <img src={Khata} alt="Real estate legal documents Bangalore: sale deed, khata, ec" />
+            <img
+              src={Khata}
+              alt="Real estate legal documents Bangalore: sale deed, khata, ec"
+            />
           </div>
           <h3>
             Essential Real Estate Legal Documents in Bangalore, what Every Buyer
@@ -46,7 +49,7 @@ function Trends() {
         </Link>
 
         <Link
-          to="ec"
+          to="/blog/property-health-report"
           className={`blog-trends-set reveal ${isECVisible ? "in-view" : ""}`}
           ref={ecRef}
         >
@@ -60,7 +63,7 @@ function Trends() {
         </Link>
 
         <Link
-          to="mistakes"
+          to="/blog/rental-guarantee-and-property-management"
           className={`blog-trends-set reveal ${
             isMistakesVisible ? "in-view" : ""
           }`}
@@ -76,7 +79,7 @@ function Trends() {
         </Link>
 
         <Link
-          to="filing"
+          to="/blog/modular-and-portable-homes"
           className={`blog-trends-set reveal ${
             isFilingVisible ? "in-view" : ""
           }`}
