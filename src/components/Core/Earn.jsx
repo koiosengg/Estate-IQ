@@ -14,7 +14,10 @@ function Earn() {
         <p>
           <span></span> Earn Rent Without Stress
         </p>
-        <h2>We Guarantee Your Rent, Manage Tenants & Handle Maintenance</h2>
+        <h2>
+          We Guarantee Your Rent, Manage Tenants & <br className="desktop" />{" "}
+          Handle Maintenance
+        </h2>
       </div>
       <div
         ref={sectionRef}
