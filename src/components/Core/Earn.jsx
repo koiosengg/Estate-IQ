@@ -12,12 +12,9 @@ function Earn() {
     <section className="template">
       <div className="template-heading">
         <p>
-          <span></span> Invest. Manage. Grow
+          <span></span> Earn Rent Without Stress
         </p>
-        <h2>
-          Invest in Bangalore’s Booming Land Market <br className="desktop" />
-          Without Huge Capital
-        </h2>
+        <h2>We Guarantee Your Rent, Manage Tenants & Handle Maintenance</h2>
       </div>
       <div
         ref={sectionRef}
