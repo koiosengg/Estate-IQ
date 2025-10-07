@@ -13,7 +13,7 @@ function Filing() {
   return (
     <>
       <Helmet>
-        <title>Estate IQ</title>
+        <title>Estate Now</title>
         <meta
           name="description"
           content="This is the home page of my website."
@@ -65,7 +65,7 @@ function Filing() {
           <p>
             Bangalore’s housing demand is evolving — and with land &
             construction costs rising, modular and portable homes are becoming
-            an attractive, practical alternative. EstateIQ builds modern,
+            an attractive, practical alternative. Estate Now builds modern,
             affordable modular homes designed for quick deployment, energy
             efficiency, and flexible usage. Here’s why modular housing makes
             sense for Bangalore buyers, students, and hospitality owners.
@@ -129,7 +129,7 @@ function Filing() {
             </ul>
           </div>
           <div className="blog-page-container-left-section">
-            <h2>EstateIQ’s modular offering</h2>
+            <h2>Estate Now’s modular offering</h2>
             <ul>
               <li>
                 <strong>Customized layouts</strong> — From single-room studios
@@ -158,7 +158,7 @@ function Filing() {
               </li>
               <li>
                 <strong>Local approvals</strong> — Modular construction still
-                needs plan sanction and adherence to local bylaws — EstateIQ
+                needs plan sanction and adherence to local bylaws — Estate Now
                 supports every step.
               </li>
               <li>
@@ -177,7 +177,7 @@ function Filing() {
             </p>
           </div>
           <Link to="/modular-services" className="primary-btn">
-            <p>Explore Modular Home Options with EstateIQ</p>
+            <p>Explore Modular Home Options with Estate Now</p>
           </Link>
         </div>
         <div className="blog-page-container-right">

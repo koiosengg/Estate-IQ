@@ -9,7 +9,7 @@ function Banner() {
         <div className="banner-left-text">
           <h1>Smart Modular & Portable Homes in Bangalore</h1>
           <p>
-            EstateIQ builds modular and portable homes in Bangalore –
+            Estate Now builds modular and portable homes in Bangalore –
             affordable, eco-friendly, and quick housing for students,
             professionals, and resorts.
           </p>

@@ -20,7 +20,7 @@ function BelowBanner() {
           <div className="home-about-text">
             <h3>Your Trusted Partner in Real Estate</h3>
             <p>
-              At EstateIQ, we make real estate simple, transparent, and
+              At Estate Now, we make real estate simple, transparent, and
               stress-free. From essential legal documentation like sale deeds
               and Khata transfers, to rental management, property health checks,
               and even modular housing solutions — we offer end-to-end services
@@ -38,7 +38,7 @@ function BelowBanner() {
         <div className="home-about-img">
           <img
             src={Img}
-            alt="About Estate IQ"
+            alt="About Estate Now"
             ref={sectionRef}
             className={` reveal ${isVisible ? "in-view" : ""}`}
           />

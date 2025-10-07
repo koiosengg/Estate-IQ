@@ -22,7 +22,7 @@ function Navbar() {
   return (
     <header>
       <Link to="/" className="navbar-logo" onClick={handleLinkClick}>
-        <img src={Logo} alt="Estate IQ Logo" />
+        <img src={Logo} alt="Estate Now Logo" />
       </Link>
       <nav className="desktop">
         <div className="navbar-link">

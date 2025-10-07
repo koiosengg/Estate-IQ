@@ -67,7 +67,7 @@ function Services() {
               <div className="home-about-question">
                 <h4>How can we help?</h4>
                 <p>
-                  EstateIQ files or transfers your Khata seamlessly, ensuring
+                  Estate Now files or transfers your Khata seamlessly, ensuring
                   accuracy and compliance.
                 </p>
               </div>
@@ -83,7 +83,7 @@ function Services() {
           <div className="home-about-img">
             <img
               src={Khata}
-              alt="Khata / E-Khata Filling Estate IQ"
+              alt="Khata / E-Khata Filling Estate Now"
               ref={khataRef}
               className={`reveal ${isKhataVisible ? "in-view" : ""}`}
             />
@@ -126,7 +126,7 @@ function Services() {
           <div className="home-about-img">
             <img
               src={EC}
-              alt="Encumbrance Certificate (EC) Estate IQ"
+              alt="Encumbrance Certificate (EC) Estate Now"
               ref={ecRef}
               className={`reveal ${isECVisible ? "in-view" : ""}`}
             />
@@ -163,7 +163,7 @@ function Services() {
           <div className="home-about-img">
             <img
               src={SalesDeed}
-              alt="Sale Deed & Document Drafting Estate IQ"
+              alt="Sale Deed & Document Drafting Estate Now"
               ref={salesDeedRef}
               className={`reveal ${isSalesDeedVisible ? "in-view" : ""}`}
             />
@@ -184,7 +184,7 @@ function Services() {
               <div className="home-about-question">
                 <h4>How can we help?</h4>
                 <p>
-                  EstateIQ ensures timely filing, correction of past dues, and
+                  Estate Now ensures timely filing, correction of past dues, and
                   receipts for proof.
                 </p>
               </div>
@@ -200,7 +200,7 @@ function Services() {
           <div className="home-about-img">
             <img
               src={PropertyTax}
-              alt="Property Tax & Compliance Estate IQ"
+              alt="Property Tax & Compliance Estate Now"
               ref={taxRef}
               className={`reveal ${isTaxVisible ? "in-view" : ""}`}
             />
@@ -212,7 +212,7 @@ function Services() {
             <div className="home-about-text">
               <h3>Property Health Report (PTI Score)</h3>
               <p>
-                A unique EstateIQ service — a full legal & compliance check on
+                A unique Estate Now service — a full legal & compliance check on
                 your property.
               </p>
             </div>

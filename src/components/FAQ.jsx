@@ -19,7 +19,7 @@ function FAQ() {
   return (
     <>
       <Helmet>
-        <title>Estate IQ</title>
+        <title>Estate Now</title>
         <meta
           name="description"
           content="This is the home page of my website."

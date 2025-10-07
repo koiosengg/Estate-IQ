@@ -13,7 +13,7 @@ function Mistakes() {
   return (
     <>
       <Helmet>
-        <title>Estate IQ</title>
+        <title>Estate Now</title>
         <meta
           name="description"
           content="This is the home page of my website."
@@ -65,22 +65,22 @@ function Mistakes() {
           <p>
             Owning rental property in Bangalore can be profitable — but it’s
             also time-consuming. Owners face tenant screening, late payments,
-            property upkeep, and legal hassles. EstateIQ’s Rental Guarantee +
+            property upkeep, and legal hassles. Estate Now’s Rental Guarantee +
             Property Management model is built to remove these headaches and
             deliver predictable monthly income.
           </p>
           <div className="blog-page-container-left-section">
             <h2>What is a Rental Guarantee model?</h2>
             <p>
-              In the Rental Guarantee model, EstateIQ offers property owners a
+              In the Rental Guarantee model, Estate Now offers property owners a
               guaranteed monthly rent for an agreed period (typically 6–24
               months). We take responsibility for tenant sourcing, background
               checks, maintenance, and collections. If tenant-paid rent falls
-              short, EstateIQ covers the guaranteed amount (per the contract).
+              short, Estate Now covers the guaranteed amount (per the contract).
             </p>
           </div>
           <div className="blog-page-container-left-section">
-            <h2>What EstateIQ handles</h2>
+            <h2>What Estate Now handles</h2>
             <ul>
               <li>
                 <strong>Tenant screening</strong> — ID verification, employment
@@ -129,7 +129,7 @@ function Mistakes() {
                 lower than potential market rent.
               </li>
               <li>
-                <strong>EstateIQ earns the spread</strong> — by managing the
+                <strong>Estate Now earns the spread</strong> — by managing the
                 property and optimizing occupancy.
               </li>
               <li>
@@ -143,12 +143,12 @@ function Mistakes() {
             </p>
           </div>
           <div className="blog-page-container-left-section">
-            <h2>Why EstateIQ’s approach is different</h2>
+            <h2>Why Estate Now’s approach is different</h2>
             <ul>
               <li>
                 <strong>Legal-first tenancy</strong> — Every tenant is verified,
-                agreements are airtight, and EstateIQ’s documentation integrates
-                with our Property Health Report for layered safety.
+                agreements are airtight, and Estate Now’s documentation
+                integrates with our Property Health Report for layered safety.
               </li>
               <li>
                 <strong>Local vendor network</strong> — Fast maintenance fixes
@@ -163,14 +163,15 @@ function Mistakes() {
           <div className="blog-page-container-left-section">
             <h2>How to get started</h2>
             <ol className="normal">
-              <li>Book a free rental valuation with EstateIQ.</li>
+              <li>Book a free rental valuation with Estate Now.</li>
               <li>Sign a rental guarantee agreement terms and duration.</li>
               <li>We list, screen tenants, and begin occupancy</li>
               <li>You receive monthly guaranteed payments</li>
             </ol>
             <p>
-              If you’d rather retain upside, EstateIQ also offers pure property
-              management (no guarantee) with market-aligned rent and lower fees.
+              If you’d rather retain upside, Estate Now also offers pure
+              property management (no guarantee) with market-aligned rent and
+              lower fees.
             </p>
           </div>
           <a
@@ -178,7 +179,7 @@ function Mistakes() {
             target="_blank"
             className="primary-btn"
           >
-            <p>Get a Free Rental Valuation — EstateIQ</p>
+            <p>Get a Free Rental Valuation — Estate Now</p>
           </a>
         </div>
         <div className="blog-page-container-right">

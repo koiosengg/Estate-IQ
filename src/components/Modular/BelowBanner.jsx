@@ -8,15 +8,18 @@ function BelowBanner() {
   const isVisible = useInView(sectionRef);
 
   return (
-    <section className="home-faq-container modular" style={{background:"#FBF5F9"}}>
+    <section
+      className="home-faq-container modular"
+      style={{ background: "#FBF5F9" }}
+    >
       <div className="home-faq">
         <div className="home-faq-text">
           <h2>Smart Modular & Portable Homes in Bangalore</h2>
           <p>
             Housing in Bangalore is expensive and time-consuming to build.
-            EstateIQ offers modular and portable homes that are faster, greener,
-            and more affordable. From compact student rooms to resort-style
-            cottages, we make housing flexible and future-ready.
+            Estate Now offers modular and portable homes that are faster,
+            greener, and more affordable. From compact student rooms to
+            resort-style cottages, we make housing flexible and future-ready.
           </p>
         </div>
       </div>

@@ -13,7 +13,7 @@ function EC() {
   return (
     <>
       <Helmet>
-        <title>Estate IQ</title>
+        <title>Estate Now</title>
         <meta
           name="description"
           content="This is the home page of my website."
@@ -71,7 +71,7 @@ function EC() {
           </p>
           <div className="blog-page-container-left-section">
             <h2>What does a Property Health Report cover?</h2>
-            <p>A robust PHR from EstateIQ includes:</p>
+            <p>A robust PHR from Estate Now includes:</p>
             <ul>
               <li>
                 <strong>Title &amp; ownership verification</strong> — sale deed,
@@ -117,7 +117,7 @@ function EC() {
             </p>
           </div>
           <div className="blog-page-container-left-section">
-            <h2>How EstateIQ delivers the PHR</h2>
+            <h2>How Estate Now delivers the PHR</h2>
             <ol>
               <li>
                 <strong>Document collection</strong> — You upload or we fetch
@@ -171,7 +171,7 @@ function EC() {
             target="_blank"
             className="primary-btn"
           >
-            <p>Order Your Property Health Report — EstateIQ</p>
+            <p>Order Your Property Health Report — Estate Now</p>
           </a>
         </div>
         <div className="blog-page-container-right">

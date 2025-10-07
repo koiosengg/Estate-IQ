@@ -13,7 +13,7 @@ function Khata() {
   return (
     <>
       <Helmet>
-        <title>Estate IQ</title>
+        <title>Estate Now</title>
         <meta
           name="description"
           content="This is the home page of my website."
@@ -70,7 +70,7 @@ function Khata() {
             handshake. Accurate documentation is the single biggest factor that
             protects you from future disputes, tax problems, or registration
             delays. This guide lists the essential legal documents, explains why
-            each matters, provides typical timelines, and shows how EstateIQ
+            each matters, provides typical timelines, and shows how Estate Now
             helps you verify and process everything quickly and correctly.
           </p>
           <div className="blog-page-container-left-section">
@@ -184,7 +184,7 @@ function Khata() {
             </ul>
           </div>
           <div className="blog-page-container-left-section">
-            <h2>How EstateIQ Helps</h2>
+            <h2>How Estate Now Helps</h2>
             <ul>
               <li>
                 <strong>Pre-check &amp; Title Chain Verification</strong> — We

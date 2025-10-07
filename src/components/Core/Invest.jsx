@@ -51,7 +51,7 @@ function Invest() {
           target="_blank"
           className="primary-btn"
         >
-          <p>Join Estate IQ Investments</p>
+          <p>Join Estate Now Investments</p>
         </a>
       </div>
     </section>

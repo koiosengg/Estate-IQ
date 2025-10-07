@@ -9,7 +9,7 @@ function Banner() {
         <div className="banner-left-text">
           <h1>Let’s Get Your Property Work Done</h1>
           <p>
-            From Khata transfers to property registration EstateIQ makes
+            From Khata transfers to property registration Estate Now makes
             property paperwork simple, transparent, and hassle-free
           </p>
         </div>

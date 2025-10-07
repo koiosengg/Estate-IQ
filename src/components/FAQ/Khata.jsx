@@ -15,7 +15,7 @@ function Khata() {
     {
       question: "Can I transfer my Khata to a new owner?",
       answer:
-        "Yes, EstateIQ helps with Khata transfer when you buy or sell a property. All supporting documents like sale deed, tax receipts, and EC are required.",
+        "Yes, Estate Now helps with Khata transfer when you buy or sell a property. All supporting documents like sale deed, tax receipts, and EC are required.",
     },
     {
       question: "What is the difference between Khata and e-Khata?",

@@ -18,7 +18,7 @@ function Modular() {
         </p>
         <h2>Modular & Portable Homes in Bangalore</h2>
         <p className="template-heading-para">
-          EstateIQ doesn’t just handle property paperwork – we also design and
+          Estate Now doesn’t just handle property paperwork – we also design and
           build modern modular homes. Whether you’re a farmland owner,
           professional, or resort owner, our housing solutions are affordable,
           sustainable, and quick to set up.

@@ -8,7 +8,7 @@ function Banner() {
         <div className="banner-left-text">
           <h1>Your One-Stop Partner for Property Services in Bangalore</h1>
           <p>
-            EstateIQ offers end-to-end property documentation and compliance
+            Estate Now offers end-to-end property documentation and compliance
             services in Bangalore. Select a service to get started.
           </p>
         </div>

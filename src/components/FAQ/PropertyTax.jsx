@@ -5,15 +5,15 @@ function PropertyTax() {
     {
       question: "How do I pay my property tax in Bangalore?",
       answer:
-        "BBMP provides an online portal to pay taxes, but mistakes often happen in PID numbers, name mismatches, or arrears. EstateIQ helps ensure accurate filing.",
+        "BBMP provides an online portal to pay taxes, but mistakes often happen in PID numbers, name mismatches, or arrears. Estate Now helps ensure accurate filing.",
     },
     {
       question: "What happens if I don’t pay property tax on time?",
       answer:
-        "Late payments attract penalties and interest charges. EstateIQ ensures timely compliance.",
+        "Late payments attract penalties and interest charges. Estate Now ensures timely compliance.",
     },
     {
-      question: "Can EstateIQ help with property tax correction?",
+      question: "Can Estate Now help with property tax correction?",
       answer:
         "Yes, we handle PID errors, owner name corrections, and old dues clearance.",
     },

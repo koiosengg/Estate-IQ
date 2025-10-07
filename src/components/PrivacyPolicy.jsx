@@ -13,7 +13,7 @@ function PrivacyPolicy() {
       <section className="blog-page-container">
         <div className="blog-page-container-left privacy-policy">
           <p>
-            At EstateIQ, we value your trust and are committed to protecting
+            At Estate Now, we value your trust and are committed to protecting
             your personal information. This Privacy Policy explains how we
             collect, use, and safeguard your data when you use our website and
             services.

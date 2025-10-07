@@ -26,8 +26,8 @@ function HealthReport() {
             Property <span>Health Report</span>{" "}
           </h2>
           <p className="template-heading-para">
-            EstateIQ doesn’t just handle property paperwork – we also design and
-            build modern modular homes. Whether you’re a farmland owner,
+            Estate Now doesn’t just handle property paperwork – we also design
+            and build modern modular homes. Whether you’re a farmland owner,
             professional, or resort owner, our housing solutions are affordable,
             sustainable, and quick to set up.
           </p>

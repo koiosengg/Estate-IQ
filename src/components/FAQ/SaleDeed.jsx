@@ -13,7 +13,7 @@ function SaleDeed() {
         "Our legal experts draft sale deeds, agreements, and affidavits compliant with Bangalore property laws.",
     },
     {
-      question: "Can EstateIQ help with registration too?",
+      question: "Can Estate Now help with registration too?",
       answer:
         "Yes, we assist with document drafting, stamping, and registration at the sub-registrar office.",
     },

@@ -7,7 +7,7 @@ function Footer() {
     <footer>
       <div className="footer-top">
         <div className="footer-top-text">
-          <img src={Logo} className="Estate IQ Logo" />
+          <img src={Logo} className="Estate Now Logo" />
           <p>
             Simplifying property documentation in Bangalore.{" "}
             <br className="desktop" />

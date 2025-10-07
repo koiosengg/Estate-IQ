@@ -19,7 +19,7 @@ function BuySell() {
           <span></span> Buy & Sell Safely
         </p>
         <h2>
-          Every Deal is Estate IQ Verified <br className="desktop" />
+          Every Deal is Estate Now Verified <br className="desktop" />
           No Fraud, No Surprises
         </h2>
       </div>
@@ -94,7 +94,7 @@ function BuySell() {
           target="_blank"
           className="primary-btn"
         >
-          <p>Talk to an Estate IQ Broker</p>
+          <p>Talk to an Estate Now Broker</p>
         </a>
       </div>
     </section>

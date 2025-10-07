@@ -24,7 +24,7 @@ function Why() {
             <span>Limited access to investment opportunities</span>
           </div>
           <p>
-            EstateIQ was created to solve these problems with clarity, speed,
+            Estate Now was created to solve these problems with clarity, speed,
             and trust.
           </p>
         </div>

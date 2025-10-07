@@ -13,14 +13,14 @@ function About() {
         <p>
           <span></span> About
         </p>
-        <h2>About EstateIQ</h2>
+        <h2>About Estate Now</h2>
       </div>
       <div className="home-about">
         <div className="home-about-info">
           <div className="home-about-text">
             <h3>Simplifying Property Ownership</h3>
             <p>
-              EstateIQ was founded with one mission: to simplify real estate
+              Estate Now was founded with one mission: to simplify real estate
               documentation and compliance in Bangalore. We combine legal
               expertise, process efficiency, and technology to make property
               ownership stress-free for homeowners, buyers, and investors.
@@ -33,7 +33,7 @@ function About() {
         <div className="home-about-img">
           <img
             src={Img}
-            alt="About Estate IQ"
+            alt="About Estate Now"
             ref={sectionRef}
             className={` reveal ${isVisible ? "in-view" : ""}`}
           />

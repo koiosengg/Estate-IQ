@@ -13,13 +13,13 @@ function TermsAndConditions() {
       <section className="blog-page-container">
         <div className="blog-page-container-left privacy-policy">
           <p>
-            Welcome to EstateIQ. By using our website and services, you agree to
-            the following terms:
+            Welcome to Estate Now. By using our website and services, you agree
+            to the following terms:
           </p>
           <div className="blog-page-container-left-section">
             <h2>Services</h2>
             <p>
-              EstateIQ provides real estate-related services including but not
+              Estate Now provides real estate-related services including but not
               limited to:
             </p>
             <ul className="normal">
@@ -59,8 +59,9 @@ function TermsAndConditions() {
             <h2>Limitation of Liability</h2>
             <ul className="normal">
               <li>
-                EstateIQ acts as a service facilitator — and is not responsible
-                for disputes between buyers, sellers, tenants, or third parties.
+                Estate Now acts as a service facilitator — and is not
+                responsible for disputes between buyers, sellers, tenants, or
+                third parties.
               </li>
               <li>
                 We make best efforts for accuracy — but do not guarantee
@@ -68,7 +69,7 @@ function TermsAndConditions() {
                 approvals).
               </li>
               <li>
-                EstateIQ will not be liable — for indirect or consequential
+                Estate Now will not be liable — for indirect or consequential
                 damages.
               </li>
             </ul>
@@ -77,8 +78,8 @@ function TermsAndConditions() {
             <h2>Intellectual Property</h2>
             <ul className="normal">
               <li>
-                All website content, branding, and materials — belong to
-                EstateIQ.
+                All website content, branding, and materials — belong to Estate
+                Now.
               </li>
               <li>
                 Users may not copy, reproduce, or distribute content — without

@@ -25,8 +25,8 @@ function Process() {
         ref={sectionRef}
         className={`home-process reveal ${isVisible ? "in-view" : ""}`}
       >
-        <img src={DesktopImage} className="desktop" alt="Estate IQ Process" />
-        <img src={MobileImage} className="mobile" alt="Estate IQ Process" />
+        <img src={DesktopImage} className="desktop" alt="Estate Now Process" />
+        <img src={MobileImage} className="mobile" alt="Estate Now Process" />
       </div>
     </section>
   );

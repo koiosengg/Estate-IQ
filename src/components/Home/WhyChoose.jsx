@@ -15,7 +15,7 @@ function WhyChoose() {
         <p>
           <span></span> Core Services Snapshots
         </p>
-        <h2>Why Choose EstateIQ </h2>
+        <h2>Why Choose Estate Now </h2>
       </div>
       <div
         ref={sectionRef}

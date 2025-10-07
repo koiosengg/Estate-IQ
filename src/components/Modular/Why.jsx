@@ -15,7 +15,7 @@ function Why() {
         <p>
           <span></span> Why Us
         </p>
-        <h2>Why EstateIQ Modular Homes? </h2>
+        <h2>Why Estate Now Modular Homes? </h2>
       </div>
       <div
         ref={sectionRef}

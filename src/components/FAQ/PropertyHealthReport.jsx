@@ -15,7 +15,7 @@ function PropertyHealthReport() {
     {
       question: "How long does it take to get a PTI Score?",
       answer:
-        "EstateIQ delivers a detailed report within 7–14 days, depending on property complexity.",
+        "Estate Now delivers a detailed report within 7–14 days, depending on property complexity.",
     },
   ];
 

@@ -10,7 +10,7 @@ function EC() {
     {
       question: "How long does it take to get an EC?",
       answer:
-        "With EstateIQ, you can typically get an EC within 3–7 working days.",
+        "With Estate Now, you can typically get an EC within 3–7 working days.",
     },
     {
       question: "How many years of EC should I apply for?",
@@ -18,7 +18,7 @@ function EC() {
         "Most buyers request a 13 – 30 year EC to ensure full legal history is verified.",
     },
     {
-      question: "Can EstateIQ provide EC online?",
+      question: "Can Estate Now provide EC online?",
       answer:
         "Yes, we can help you obtain digitally certified EC copies without you needing to visit the sub-registrar office.",
     },
