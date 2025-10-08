@@ -13,7 +13,7 @@ function BuySell() {
   const isVisible = useInView(sectionRef);
 
   return (
-    <section className="template">
+    <section className="template" id="Brokerage">
       <div className="template-heading">
         <p>
           <span></span> Buy & Sell Safely

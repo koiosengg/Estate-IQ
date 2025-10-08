@@ -9,7 +9,7 @@ function Earn() {
   const sectionRef = useRef(null);
   const isVisible = useInView(sectionRef);
   return (
-    <section className="template">
+    <section className="template" id="Rental-Management">
       <div className="template-heading">
         <p>
           <span></span> Earn Rent Without Stress

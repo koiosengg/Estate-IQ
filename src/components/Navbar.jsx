@@ -78,7 +78,10 @@ function Navbar() {
                 />
               </svg>
             </Link>
-            <Link className="navbar-dropdwon-link">
+            <Link
+              to="/core-services#Brokerage"
+              className="navbar-dropdwon-link"
+            >
               <div className="navbar-dropdwon-link-text">
                 <p>Brokerage</p>
               </div>
@@ -95,7 +98,10 @@ function Navbar() {
                 />
               </svg>
             </Link>
-            <Link className="navbar-dropdwon-link">
+            <Link
+              to="/core-services#Rental-Management"
+              className="navbar-dropdwon-link"
+            >
               <div className="navbar-dropdwon-link-text">
                 <p>Rental Management</p>
               </div>
@@ -112,7 +118,10 @@ function Navbar() {
                 />
               </svg>
             </Link>
-            <Link className="navbar-dropdwon-link">
+            <Link
+              to="/core-services#Land-Investment"
+              className="navbar-dropdwon-link"
+            >
               <div className="navbar-dropdwon-link-text">
                 <p>Land Investment</p>
               </div>
@@ -245,7 +254,10 @@ function Navbar() {
                   />
                 </svg>
               </Link>
-              <Link className="navbar-dropdwon-link">
+              <Link
+                to="/core-services#Brokerage"
+                className="navbar-dropdwon-link"
+              >
                 <div className="navbar-dropdwon-link-text">
                   <p>Brokerage</p>
                 </div>
@@ -262,7 +274,10 @@ function Navbar() {
                   />
                 </svg>
               </Link>
-              <Link className="navbar-dropdwon-link">
+              <Link
+                to="/core-services#Rental-Management"
+                className="navbar-dropdwon-link"
+              >
                 <div className="navbar-dropdwon-link-text">
                   <p>Rental Management</p>
                 </div>
@@ -279,7 +294,10 @@ function Navbar() {
                   />
                 </svg>
               </Link>
-              <Link className="navbar-dropdwon-link">
+              <Link
+                to="/core-services#Land-Investment"
+                className="navbar-dropdwon-link"
+              >
                 <div className="navbar-dropdwon-link-text">
                   <p>Land Investment</p>
                 </div>

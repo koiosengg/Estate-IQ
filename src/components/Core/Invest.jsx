@@ -9,7 +9,7 @@ function Invest() {
   const sectionRef = useRef(null);
   const isVisible = useInView(sectionRef);
   return (
-    <section className="template">
+    <section className="template" id="Land-Investment">
       <div className="template-heading">
         <p>
           <span></span> Invest. Manage. Grow
