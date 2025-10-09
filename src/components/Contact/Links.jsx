@@ -41,14 +41,14 @@ function Links() {
             </div>
           </a>
           <a
-            href="mailto:estateiq@gmail.com"
+            href="mailto:ar@estatenow.in"
             className="home-modular-card"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img src={Email} alt="Email" />
             <div className="home-modular-card-text">
-              <h3>estateiq@gmail.com</h3>
+              <h3>ar@estatenow.in</h3>
               <p>Email</p>
             </div>
           </a>
