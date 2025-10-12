@@ -10,7 +10,7 @@ function Form() {
         <h2>Contact Us</h2>
       </div>
       <div className="contact-form">
-        <form action="https://formspree.io/f/mpwjvoqz" method="POST">
+        <form action="https://formspree.io/f/manplwwd" method="POST">
           <div className="input-section">
             <label htmlFor="name">Name</label>
             <input
