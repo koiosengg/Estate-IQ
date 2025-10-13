@@ -852,8 +852,10 @@ header nav {
 
 .home-testimony {
   width: 100%;
-  display: flex;
-  align-items: center;
+  /* display: flex;
+  align-items: center; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
 
@@ -863,9 +865,11 @@ header nav {
   padding: 16px;
   flex-direction: column;
   align-items: flex-start;
+  justify-content: space-between;
   gap: 36px;
   border: 1px solid var(--Grey-grey-50, #f2f2f2);
   background: var(--White, #fff);
+  align-self: stretch;
 }
 
 .home-testimony-set p {
@@ -2117,6 +2121,8 @@ footer nav a:hover {
     overflow-x: scroll;
     scrollbar-width: none;
     -ms-overflow-style: none;
+    display: flex;
+    align-items: flex-start;
   }
 
   .home-testimony::-webkit-scrollbar {
