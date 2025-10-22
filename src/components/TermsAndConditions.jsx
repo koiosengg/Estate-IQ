@@ -107,7 +107,7 @@ function TermsAndConditions() {
           </div>
           <div className="blog-page-container-left-section">
             <h2>Contact Us</h2>
-            <p>Email: estateiq8@gmail.com</p>
+            <p>Email: ar@estatenow.in@gmail.com</p>
           </div>
         </div>
       </section>
