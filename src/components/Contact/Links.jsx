@@ -53,15 +53,18 @@ function Links() {
             </div>
           </a>
           <a
-            href="https://www.google.com/maps/place/Bengaluru"
+            href="https://maps.app.goo.gl/3cAbfWtVugbNvnrp7"
             className="home-modular-card"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img src={Location} alt="Location" />
             <div className="home-modular-card-text">
-              <h3>Bengaluru</h3>
-              <p>Office</p>
+              <h3>Office</h3>
+              <p>
+                Ground Floor, 133, 13th Cross Road, Neeladri Nagar, Electronic
+                City Phase I, Doddathoguru, Bengaluru, Karnataka 560100
+              </p>
             </div>
           </a>
         </div>
